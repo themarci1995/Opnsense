@@ -549,8 +549,8 @@ qwwX7/A07ZMql/Aq/2ueAAAAFG1hcmNlQE1hcmNlbF9EZXNrdG9wAQ==&#xD;
   </widgets>
   <revision>
     <username>root@2003:c0:bf4e:ffff:6427:74f3:7628:c497</username>
-    <description>/diag_backup.php machte &#xC4;nderungen</description>
-    <time>1704129482.1314</time>
+    <time>1704129491.9179</time>
+    <description>Changed backup revision count</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
