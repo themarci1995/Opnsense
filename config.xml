@@ -316,8 +316,7 @@
         <enabled>1</enabled>
         <url>https://github.com/themarci1995/Opnsense.git</url>
         <branch>master</branch>
-        <privkey>&#xD;
-</privkey>
+        <privkey/>
         <user>themarci1995</user>
         <password>01719800767@Marcel</password>
       </git>
@@ -544,7 +543,7 @@
   <revision>
     <username>root@2003:c0:bf4e:ffff:6427:74f3:7628:c497</username>
     <description>/diag_backup.php machte &#xC4;nderungen</description>
-    <time>1704129718.1427</time>
+    <time>1704129756.4265</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
