@@ -315,7 +315,7 @@
       <git version="1.0.0">
         <enabled>1</enabled>
         <url>ssh://github.com:themarci1995/Opnsense.git</url>
-        <branch>master</branch>
+        <branch>main</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#xD;
 QyNTUxOQAAACAU42Vwz6jHU9YzeL21w+a+aasMF+/wNO2TKpfwKv9rngAAAJhkkRNOZJET&#xD;
@@ -550,7 +550,7 @@ qwwX7/A07ZMql/Aq/2ueAAAAFG1hcmNlQE1hcmNlbF9EZXNrdG9wAQ==&#xD;
   <revision>
     <username>root@2003:c0:bf4e:ffff:6427:74f3:7628:c497</username>
     <description>/diag_backup.php machte &#xC4;nderungen</description>
-    <time>1704129882.568</time>
+    <time>1704129994.7595</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
