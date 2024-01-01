@@ -421,8 +421,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <virtual>1</virtual>
     </lo0>
     <opt1>
-      <descr>OPT1</descr>
       <if>igc2</if>
+      <descr>OPT1</descr>
+      <enable>1</enable>
+      <spoofmac/>
     </opt1>
   </interfaces>
   <dhcpd>
@@ -548,8 +550,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@2003:c0:bf4e:ffff:6427:74f3:7628:c497</username>
-    <description>/diag_backup.php machte &#xC4;nderungen</description>
-    <time>1704132632.522</time>
+    <time>1704132760.1404</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
