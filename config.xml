@@ -549,8 +549,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/dyndns/accounts/add_item/ machte &#xC4;nderungen</description>
-    <time>1704136546.8554</time>
+    <description>/api/dyndns/settings/set machte &#xC4;nderungen</description>
+    <time>1704136550.4948</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
