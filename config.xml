@@ -324,7 +324,7 @@ AAAECvmu2SC7d1iP8eZa6lC8zVUS9un3iS+2geIxLbt0XapxTjZXDPqMdT1jN4vbXD5r5p&#xD;
 qwwX7/A07ZMql/Aq/2ueAAAAFG1hcmNlQE1hcmNlbF9EZXNrdG9wAQ==&#xD;
 -----END OPENSSH PRIVATE KEY-----&#xD;
 </privkey>
-        <user>themarci1995</user>
+        <user>git</user>
         <password/>
       </git>
       <nextcloud version="1.0.0">
@@ -550,7 +550,7 @@ qwwX7/A07ZMql/Aq/2ueAAAAFG1hcmNlQE1hcmNlbF9EZXNrdG9wAQ==&#xD;
   <revision>
     <username>root@2003:c0:bf4e:ffff:6427:74f3:7628:c497</username>
     <description>/diag_backup.php machte &#xC4;nderungen</description>
-    <time>1704129875.077</time>
+    <time>1704129882.568</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
