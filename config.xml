@@ -490,7 +490,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </snmpd>
   <nat>
     <outbound>
-      <mode>automatic</mode>
+      <mode>hybrid</mode>
+      <rule/>
     </outbound>
   </nat>
   <filter>
@@ -579,8 +580,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705176533.6199</time>
-    <description>/system_advanced_firewall.php made changes</description>
+    <time>1705176626.6742</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
