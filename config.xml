@@ -343,6 +343,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <maximumtableentries/>
     <skip_rules_gw_down>1</skip_rules_gw_down>
     <pfdebug>urgent</pfdebug>
+    <disablefilter>enabled</disablefilter>
   </system>
   <interfaces>
     <wan>
@@ -579,7 +580,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705176368.6614</time>
+    <time>1705176432.9012</time>
     <description>/system_advanced_firewall.php made changes</description>
   </revision>
   <OPNsense>
