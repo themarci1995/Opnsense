@@ -495,7 +495,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </outbound>
   </nat>
   <filter>
-    <rule>
+    <rule uuid="306ca0e7-fb04-4577-9e41-54e801366203">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
       <descr>Default allow LAN to any rule</descr>
@@ -507,7 +507,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <any/>
       </destination>
     </rule>
-    <rule>
+    <rule uuid="242e4999-6df8-4cfc-84ee-e5fcac251895">
       <type>pass</type>
       <ipprotocol>inet6</ipprotocol>
       <descr>Default allow LAN IPv6 to any rule</descr>
@@ -518,6 +518,31 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <destination>
         <any/>
       </destination>
+    </rule>
+    <rule uuid="e12ca12b-202e-4351-bf41-e6f3675cfb34">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow LAN IPv6 to any rule</descr>
+      <direction>out</direction>
+      <quick>1</quick>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.0.0.57</username>
+        <time>1705485630.4287</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.57</username>
+        <time>1705485630.4287</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -580,8 +605,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/core/backup/revert_backup/config-1705176632.7143.xml machte &#xC4;nderungen</description>
-    <time>1705485351.2438</time>
+    <time>1705485630.5333</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
