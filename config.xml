@@ -495,18 +495,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </outbound>
   </nat>
   <filter>
-    <rule uuid="e1df8538-578d-4030-91b9-1500e6ea11c6">
-      <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Default allow LAN to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
     <rule uuid="3a8bd9c8-49a7-404b-884d-ac4d7f98f9b9">
       <type>pass</type>
       <ipprotocol>inet6</ipprotocol>
@@ -542,6 +530,18 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1705483815.7028</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+    </rule>
+    <rule uuid="e1df8538-578d-4030-91b9-1500e6ea11c6">
+      <type>pass</type>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Default allow LAN to any rule</descr>
+      <interface>lan</interface>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any/>
+      </destination>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -604,8 +604,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705483815.7992</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1705483907.6859</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
