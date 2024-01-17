@@ -491,63 +491,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule>
-        <source>
-          <network>any</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <category/>
-        <interface>wan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet6</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <updated>
-          <username>root@10.0.0.57</username>
-          <time>1705484442.3299</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@10.0.0.57</username>
-          <time>1705484442.3299</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-      </rule>
+      <rule/>
     </outbound>
   </nat>
   <filter>
-    <rule uuid="2d34a022-3c28-488f-8318-f78b7fb93ec4">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@10.0.0.57</username>
-        <time>1705483815.7028</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.0.0.57</username>
-        <time>1705483815.7028</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="e1df8538-578d-4030-91b9-1500e6ea11c6">
+    <rule>
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
       <descr>Default allow LAN to any rule</descr>
@@ -559,29 +507,17 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <any/>
       </destination>
     </rule>
-    <rule uuid="252f3835-5876-44c9-8423-63010737b127">
+    <rule>
       <type>pass</type>
+      <ipprotocol>inet6</ipprotocol>
+      <descr>Default allow LAN IPv6 to any rule</descr>
       <interface>lan</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>out</direction>
-      <quick>1</quick>
       <source>
-        <any>1</any>
+        <network>lan</network>
       </source>
       <destination>
-        <any>1</any>
+        <any/>
       </destination>
-      <updated>
-        <username>root@10.0.0.57</username>
-        <time>1705483971.2703</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.0.0.57</username>
-        <time>1705483971.2703</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -644,8 +580,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705484444.2567</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <description>/api/core/backup/revert_backup/config-1705176632.7143.xml machte &#xC4;nderungen</description>
+    <time>1705485351.2438</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
