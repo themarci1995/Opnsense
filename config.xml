@@ -543,6 +543,30 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <any/>
       </destination>
     </rule>
+    <rule uuid="252f3835-5876-44c9-8423-63010737b127">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>out</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.0.0.57</username>
+        <time>1705483971.2703</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.57</username>
+        <time>1705483971.2703</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
   <rrd>
@@ -604,8 +628,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705483907.6859</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1705483971.3664</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
