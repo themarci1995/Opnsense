@@ -495,18 +495,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </outbound>
   </nat>
   <filter>
-    <rule uuid="3a8bd9c8-49a7-404b-884d-ac4d7f98f9b9">
-      <type>pass</type>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Default allow LAN IPv6 to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
     <rule uuid="2d34a022-3c28-488f-8318-f78b7fb93ec4">
       <type>pass</type>
       <interface>lan</interface>
@@ -628,8 +616,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705483971.3664</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1705484293.8776</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
