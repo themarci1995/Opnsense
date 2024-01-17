@@ -495,7 +495,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </outbound>
   </nat>
   <filter>
-    <rule>
+    <rule uuid="e1df8538-578d-4030-91b9-1500e6ea11c6">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
       <descr>Default allow LAN to any rule</descr>
@@ -507,7 +507,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <any/>
       </destination>
     </rule>
-    <rule>
+    <rule uuid="3a8bd9c8-49a7-404b-884d-ac4d7f98f9b9">
       <type>pass</type>
       <ipprotocol>inet6</ipprotocol>
       <descr>Default allow LAN IPv6 to any rule</descr>
@@ -518,6 +518,30 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <destination>
         <any/>
       </destination>
+    </rule>
+    <rule uuid="2d34a022-3c28-488f-8318-f78b7fb93ec4">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.0.0.57</username>
+        <time>1705483815.7028</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.57</username>
+        <time>1705483815.7028</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -580,8 +604,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705176632.7143</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1705483815.7992</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
