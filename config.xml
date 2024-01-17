@@ -431,7 +431,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <opt1>
       <if>igc2</if>
       <descr>OPT1</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>172.0.0.1</ipaddr>
       <subnet>24</subnet>
@@ -605,8 +604,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705485630.5333</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1705485712.5861</time>
+    <description>Interface OPT1(opt1) is now disabled.</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
