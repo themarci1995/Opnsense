@@ -413,7 +413,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <subnet>8</subnet>
       <ipaddrv6>track6</ipaddrv6>
       <track6-interface>wan</track6-interface>
-      <track6-prefix-id>5</track6-prefix-id>
+      <track6-prefix-id>0</track6-prefix-id>
       <dhcpd6track6allowoverride>1</dhcpd6track6allowoverride>
     </lan>
     <lo0>
@@ -604,8 +604,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705485712.5861</time>
-    <description>Interface OPT1(opt1) is now disabled.</description>
+    <time>1705485725.1422</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
