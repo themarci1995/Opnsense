@@ -605,7 +605,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1705567063.1131</time>
+    <time>1705567064.029</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -650,6 +650,19 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <command>acmeclient cron-auto-renew</command>
           <parameters/>
           <description>AcmeClient Cronjob for Certificate AutoRenewal</description>
+        </job>
+        <job uuid="e2fb6fc2-6803-4a5a-bee0-76c2c89039cd">
+          <origin>Zenarmor</origin>
+          <enabled>1</enabled>
+          <minutes>*</minutes>
+          <hours>*</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>zenarmor periodicals</command>
+          <parameters>&gt; /dev/null 2&gt;&amp;1</parameters>
+          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
