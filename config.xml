@@ -605,7 +605,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1705567030.7793</time>
+    <time>1705567053.8394</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1860,6 +1860,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <swapRateEnabled>true</swapRateEnabled>
         <maxmemoryusage>3072</maxmemoryusage>
         <backupPath>/usr/local/datastore/backup</backupPath>
+        <traceFSSize>100M</traceFSSize>
       </general>
       <shun>
         <networks/>
