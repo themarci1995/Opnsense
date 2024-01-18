@@ -604,8 +604,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1705567064.8902</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1705567069.832</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1436,7 +1436,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <actions/>
     </AcmeClient>
     <bind>
-      <general version="1.0.10">
+      <general version="1.0.11">
         <enabled>0</enabled>
         <disablev6>0</disablev6>
         <enablerpz>1</enablerpz>
@@ -1452,6 +1452,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <filteraaaav6>0</filteraaaav6>
         <filteraaaaacl/>
         <logsize>5</logsize>
+        <general_log_level>info</general_log_level>
         <maxcachesize>80</maxcachesize>
         <recursion/>
         <allowtransfer/>
