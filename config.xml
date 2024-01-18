@@ -605,7 +605,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1705567008.1784</time>
+    <time>1705567011.2567</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1162,7 +1162,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ntp>1</ntp>
       <zfs>1</zfs>
     </NodeExporter>
-    <AcmeClient version="3.4.0">
+    <AcmeClient version="3.5.0">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1250,6 +1250,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_azuredns_tenantid/>
           <dns_azuredns_appid/>
           <dns_azuredns_clientsecret/>
+          <dns_bunny_api_key/>
           <dns_cf_email/>
           <dns_cf_key/>
           <dns_cf_token/>
@@ -1266,6 +1267,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_da_insecure>1</dns_da_insecure>
           <dns_ddnss_token/>
           <dns_dgon_key/>
+          <dns_dnsexit_auth_user/>
+          <dns_dnsexit_auth_pass/>
+          <dns_dnsexit_api/>
           <dns_dnsimple_token/>
           <dns_dnsservices_user/>
           <dns_dnsservices_password/>
@@ -1286,6 +1290,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_freedns_user/>
           <dns_freedns_password/>
           <dns_gandi_livedns_key/>
+          <dns_gandi_livedns_token/>
           <dns_gcloud_key/>
           <dns_googledomains_access_token/>
           <dns_googledomains_zone/>
@@ -1397,6 +1402,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_variomedia_key/>
           <dns_schlundtech_user/>
           <dns_schlundtech_password/>
+          <dns_easydns_apitoken/>
+          <dns_easydns_apikey/>
           <dns_euserv_user/>
           <dns_euserv_password/>
           <dns_leaseweb_key/>
@@ -1422,6 +1429,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_cpanel_hostname/>
           <dns_regru_username/>
           <dns_regru_password/>
+          <dns_world4you_username/>
+          <dns_world4you_password/>
         </validation>
       </validations>
       <actions/>
