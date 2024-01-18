@@ -605,7 +605,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1705567004.4145</time>
+    <time>1705567008.1784</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1146,7 +1146,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <domains/>
     </unboundplus>
     <Gateways version="0.0.1"/>
-    <NodeExporter version="0.1.0">
+    <NodeExporter version="0.2.0">
       <enabled>1</enabled>
       <listenaddress>0.0.0.0</listenaddress>
       <listenport>9100</listenport>
