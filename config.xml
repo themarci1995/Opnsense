@@ -603,9 +603,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <ipcheckfilter>address,isp,vpn,risk</ipcheckfilter>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <time>1705485787.1554</time>
-    <description>/interfaces.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1705567004.4145</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1649,7 +1649,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <prefixlists/>
         <routemaps/>
       </ospf>
-      <bgp version="1.0.7">
+      <bgp version="1.0.8">
         <enabled>0</enabled>
         <asnumber>65551</asnumber>
         <routerid/>
