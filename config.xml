@@ -439,6 +439,15 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <track6-prefix-id>0</track6-prefix-id>
       <dhcpd6track6allowoverride>1</dhcpd6track6allowoverride>
     </opt1>
+    <wireguard>
+      <internal_dynamic>1</internal_dynamic>
+      <descr>WireGuard (Group)</descr>
+      <if>wireguard</if>
+      <virtual>1</virtual>
+      <enable>1</enable>
+      <type>group</type>
+      <networks/>
+    </wireguard>
   </interfaces>
   <dhcpd>
     <lan>
@@ -603,9 +612,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <ipcheckfilter>address,isp,vpn,risk</ipcheckfilter>
   </widgets>
   <revision>
-    <username>root@10.0.0.162</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1705568989.1106</time>
+    <username>(root)</username>
+    <time>1705568989.3544</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
