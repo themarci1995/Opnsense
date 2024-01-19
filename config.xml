@@ -428,15 +428,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
-    <wireguard>
-      <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Gruppe)</descr>
-      <if>wireguard</if>
-      <virtual>1</virtual>
-      <enable>1</enable>
-      <type>group</type>
-      <networks/>
-    </wireguard>
     <opt1>
       <if>wg1</if>
       <descr>Hetzner</descr>
@@ -595,9 +586,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <gatewaysinvert>1</gatewaysinvert>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1705571426.0689</time>
+    <username>(root)</username>
+    <time>1705571426.2882</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
