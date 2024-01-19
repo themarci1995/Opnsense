@@ -604,8 +604,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1705568831.1829</time>
+    <description>/api/wireguard/server/addServer/ machte &#xC4;nderungen</description>
+    <time>1705568982.4027</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2044,7 +2044,23 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <enabled>0</enabled>
       </general>
       <server version="0.0.4">
-        <servers/>
+        <servers>
+          <server uuid="f36d7d06-307c-44d1-8884-ab5882dbc8c0">
+            <enabled>1</enabled>
+            <name>Hetzner</name>
+            <instance>1</instance>
+            <pubkey>qcMP2ovRslWpvWE5B8mPtOKcsEclWvMtPasiFFv8Pi4=</pubkey>
+            <privkey>yGQgYKB2sbunvC8UGea/5ew6wOlLtRi3UtpqcKFELGA=</privkey>
+            <port>51820</port>
+            <mtu/>
+            <dns/>
+            <tunneladdress>2a01:4f8:c010:8604::1</tunneladdress>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers>1ed8dd25-3f05-4a4a-b9f8-cdf01f80ee31</peers>
+          </server>
+        </servers>
       </server>
     </wireguard>
   </OPNsense>
