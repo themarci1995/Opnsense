@@ -603,9 +603,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <ipcheckfilter>address,isp,vpn,risk</ipcheckfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1705567256.3814</time>
+    <username>root@10.0.0.162</username>
+    <description>/api/wireguard/client/addClient/ machte &#xC4;nderungen</description>
+    <time>1705568801.3216</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2027,7 +2027,18 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </DynDNS>
     <wireguard>
       <client version="0.0.7">
-        <clients/>
+        <clients>
+          <client uuid="1ed8dd25-3f05-4a4a-b9f8-cdf01f80ee31">
+            <enabled>1</enabled>
+            <name>pfsenseHetzner</name>
+            <pubkey>IIAAh+duyFuTxpaYFcGDDAnKwT5Kvs7WL+cUmnXRgRY=</pubkey>
+            <psk/>
+            <tunneladdress>0.0.0.0/0</tunneladdress>
+            <serveraddress>2a01:4f8:c010:8604::1</serveraddress>
+            <serverport>51820</serverport>
+            <keepalive>25</keepalive>
+          </client>
+        </clients>
       </client>
       <general version="0.0.1">
         <enabled>0</enabled>
