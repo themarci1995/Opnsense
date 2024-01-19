@@ -586,9 +586,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <gatewaysinvert>1</gatewaysinvert>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1705571426.2882</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.57</username>
+    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
+    <time>1705571427.7636</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
