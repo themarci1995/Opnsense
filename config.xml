@@ -438,8 +438,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <networks/>
     </wireguard>
     <opt1>
-      <descr>Hetzner</descr>
       <if>wg1</if>
+      <descr>Hetzner</descr>
+      <enable>1</enable>
+      <spoofmac/>
     </opt1>
   </interfaces>
   <dhcpd>
@@ -592,8 +594,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <time>1705569190.8919</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1705569198.2731</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
