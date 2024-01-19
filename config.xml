@@ -587,8 +587,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1705571427.7636</time>
+    <description>/api/wireguard/server/addServer/ machte &#xC4;nderungen</description>
+    <time>1705572086.2931</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2016,7 +2016,23 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <enabled>0</enabled>
       </general>
       <server version="0.0.4">
-        <servers/>
+        <servers>
+          <server uuid="33adae89-ade3-422c-806f-964066b72b8c">
+            <enabled>1</enabled>
+            <name>WG</name>
+            <instance>1</instance>
+            <pubkey>/7X4CYYWKBC8NrKvJZvsRl8CcLBdMK1NvjC+wAxYThY=</pubkey>
+            <privkey>WM7uiB3Kt0V62pRcM5P1rJvZ5nrPmoyytv/sxnnUCU4=</privkey>
+            <port>51820</port>
+            <mtu/>
+            <dns/>
+            <tunneladdress>172.10.0.1/24</tunneladdress>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers/>
+          </server>
+        </servers>
       </server>
     </wireguard>
   </OPNsense>
