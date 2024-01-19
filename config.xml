@@ -604,8 +604,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <description>/api/wireguard/client/addClient/ machte &#xC4;nderungen</description>
-    <time>1705568801.3216</time>
+    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
+    <time>1705568831.1829</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
