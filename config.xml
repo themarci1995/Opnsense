@@ -595,9 +595,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <gatewaysinvert>1</gatewaysinvert>
   </widgets>
   <revision>
-    <username>root@10.0.0.162</username>
-    <description>/api/wireguard/client/delClient/1ed8dd25-3f05-4a4a-b9f8-cdf01f80ee31 machte &#xC4;nderungen</description>
-    <time>1705569329.5641</time>
+    <username>root@10.0.0.57</username>
+    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
+    <time>1705571426.0689</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2022,7 +2022,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <clients/>
       </client>
       <general version="0.0.1">
-        <enabled>1</enabled>
+        <enabled>0</enabled>
       </general>
       <server version="0.0.4">
         <servers/>
