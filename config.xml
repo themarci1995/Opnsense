@@ -587,8 +587,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/wireguard/server/addServer/ machte &#xC4;nderungen</description>
-    <time>1705572086.2931</time>
+    <description>/api/wireguard/client/addClient/ machte &#xC4;nderungen</description>
+    <time>1705572229.1748</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2010,7 +2010,18 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </DynDNS>
     <wireguard>
       <client version="0.0.7">
-        <clients/>
+        <clients>
+          <client uuid="33c858a1-12ae-40f7-9b6c-dedbee0d7e98">
+            <enabled>1</enabled>
+            <name>Hetzner</name>
+            <pubkey>K5NmQwMMak9MIHiUZvE8Ft5j0aNdGl6VHApt9uKVXG4=</pubkey>
+            <psk/>
+            <tunneladdress>0.0.0.0/0</tunneladdress>
+            <serveraddress>pfsensehetzner.ipv64.net</serveraddress>
+            <serverport>51820</serverport>
+            <keepalive>25</keepalive>
+          </client>
+        </clients>
       </client>
       <general version="0.0.1">
         <enabled>0</enabled>
@@ -2030,7 +2041,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers/>
+            <peers>33c858a1-12ae-40f7-9b6c-dedbee0d7e98</peers>
           </server>
         </servers>
       </server>
