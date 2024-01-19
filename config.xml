@@ -437,6 +437,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <type>group</type>
       <networks/>
     </wireguard>
+    <opt1>
+      <descr>Hetzner</descr>
+      <if>wg1</if>
+    </opt1>
   </interfaces>
   <dhcpd>
     <lan>
@@ -588,7 +592,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <time>1705569184.9094</time>
+    <time>1705569190.8919</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
