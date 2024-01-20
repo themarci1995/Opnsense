@@ -597,8 +597,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705692570.6281</time>
-    <description>/system_gateways_edit.php made changes</description>
+    <description>/api/wireguard/server/addServer/ machte &#xC4;nderungen</description>
+    <time>1705695454.1967</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2052,6 +2052,21 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <gateway/>
             <carp_depend_on/>
             <peers>33c858a1-12ae-40f7-9b6c-dedbee0d7e98</peers>
+          </server>
+          <server uuid="23ae322e-d5fe-4ac2-af50-f847a02cf9f2">
+            <enabled>1</enabled>
+            <name>WGOPN-site-a-Hetzner</name>
+            <instance>2</instance>
+            <pubkey>r8ilgLoUZvprLsdpKKRZfxM7DCkt3rN56mGHDX0nzH4=</pubkey>
+            <privkey>SGTKmTegA+7kURFugSE3s5ArOkWRvhW6ZNimTa5qQ24=</privkey>
+            <port>51820</port>
+            <mtu/>
+            <dns/>
+            <tunneladdress>192.188.0.1/24</tunneladdress>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers/>
           </server>
         </servers>
       </server>
