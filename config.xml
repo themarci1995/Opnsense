@@ -597,8 +597,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/wireguard/server/toggleServer/33adae89-ade3-422c-806f-964066b72b8c machte &#xC4;nderungen</description>
-    <time>1705696502.6537</time>
+    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
+    <time>1705696503.5994</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
