@@ -436,13 +436,17 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt1>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
       <type>group</type>
       <networks/>
     </wireguard>
+    <opt2>
+      <descr>WGOPNsiteaHetzner</descr>
+      <if>wg2</if>
+    </opt2>
   </interfaces>
   <dhcpd>
     <lan>
@@ -597,8 +601,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1705696503.5994</time>
+    <time>1705696955.0601</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
