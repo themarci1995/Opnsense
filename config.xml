@@ -602,8 +602,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705704200.0921</time>
-    <description>Interface WGOPNsiteaHetzner(opt2) is now disabled.</description>
+    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
+    <time>1705704305.6963</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2039,7 +2039,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </clients>
       </client>
       <general version="0.0.1">
-        <enabled>1</enabled>
+        <enabled>0</enabled>
       </general>
       <server version="0.0.4">
         <servers>
