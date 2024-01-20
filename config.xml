@@ -436,7 +436,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt1>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -597,8 +597,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/ntopng/general/set machte &#xC4;nderungen</description>
-    <time>1705686554.3013</time>
+    <time>1705692470.7588</time>
+    <description>/system_gateways_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2152,6 +2152,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ipprotocol>inet</ipprotocol>
       <descr>Interface WAN_DHCP Gateway</descr>
       <monitor>9.9.9.9</monitor>
+      <latencylow>500</latencylow>
+      <latencyhigh>1000</latencyhigh>
+      <losslow>60</losslow>
+      <losshigh>100</losshigh>
     </gateway_item>
     <gateway_item>
       <interface>wan</interface>
