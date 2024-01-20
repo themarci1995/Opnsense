@@ -439,15 +439,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <descr>WGOPNsiteaHetzner</descr>
       <spoofmac/>
     </opt2>
-    <wireguard>
-      <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
-      <if>wireguard</if>
-      <virtual>1</virtual>
-      <enable>1</enable>
-      <type>group</type>
-      <networks/>
-    </wireguard>
   </interfaces>
   <dhcpd>
     <lan>
@@ -601,9 +592,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1705704755.6879</time>
+    <username>(root)</username>
+    <time>1705704755.9092</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
