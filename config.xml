@@ -604,7 +604,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/wireguard/server/toggleServer/33adae89-ade3-422c-806f-964066b72b8c machte &#xC4;nderungen</description>
-    <time>1705702959.2678</time>
+    <time>1705702959.9964</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2055,7 +2055,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <server version="0.0.4">
         <servers>
           <server uuid="33adae89-ade3-422c-806f-964066b72b8c">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>WG</name>
             <instance>1</instance>
             <pubkey>/7X4CYYWKBC8NrKvJZvsRl8CcLBdMK1NvjC+wAxYThY=</pubkey>
