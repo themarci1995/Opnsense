@@ -282,7 +282,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-bind,os-collectd,os-ddclient,os-elasticsearch7-maxit,os-frr,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-sensei,os-sensei-agent,os-sensei-updater,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat,os-wireguard,os-wireguard-go</plugins>
+      <plugins>os-acme-client,os-bind,os-collectd,os-ddclient,os-elasticsearch7-maxit,os-frr,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-ntopng,os-sensei,os-sensei-agent,os-sensei-updater,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat,os-wireguard,os-wireguard-go</plugins>
       <type/>
       <subscription/>
     </firmware>
@@ -434,6 +434,15 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <enable>1</enable>
       <spoofmac/>
     </opt1>
+    <wireguard>
+      <internal_dynamic>1</internal_dynamic>
+      <descr>WireGuard (Gruppe)</descr>
+      <if>wireguard</if>
+      <virtual>1</virtual>
+      <enable>1</enable>
+      <type>group</type>
+      <networks/>
+    </wireguard>
   </interfaces>
   <dhcpd>
     <lan>
@@ -579,17 +588,17 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <statsgraph>on</statsgraph>
   </ntpd>
   <widgets>
-    <sequence>system_information-container:00000000-col4:show,thermal_sensors-container:00000001-col4:show,ipcheck-container:00000002-col4:show,services_status-container:00000003-col5:show,interface_list-container:00000004-col6:show,gateways-container:00000005-col6:show,interface_statistics-container:00000006-col6:show,traffic_graphs-container:00000007-col6:show</sequence>
+    <sequence>system_information-container:00000000-col4:show,thermal_sensors-container:00000001-col4:show,zenarmor-container:00000002-col4:show,services_status-container:00000003-col5:show,ipcheck-container:00000004-col5:show,interface_list-container:00000005-col6:show,gateways-container:00000006-col6:show,interface_statistics-container:00000007-col6:show,traffic_graphs-container:00000008-col6:show,wireguard-container:00000009-col6:show</sequence>
     <column_count>3</column_count>
     <ipcheckfilter>address,isp,vpn,risk</ipcheckfilter>
-    <gatewaysfilter>WAN_DHCP6,WAN_DHCP</gatewaysfilter>
+    <gatewaysfilter>WAN_DHCP6,WAN_DHCP,CloudfirewallHetzner</gatewaysfilter>
     <gatewaysinvert>1</gatewaysinvert>
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1705572607.6999</time>
-    <description>Updated plugin interface configuration</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1705686251.7515</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1037,9 +1046,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <dns64>0</dns64>
         <dns64prefix>64:ff9b::/96</dns64prefix>
         <noarecords>0</noarecords>
-        <regdhcp>0</regdhcp>
+        <regdhcp>1</regdhcp>
         <regdhcpdomain/>
-        <regdhcpstatic>0</regdhcpstatic>
+        <regdhcpstatic>1</regdhcpstatic>
         <noreglladdr6>0</noreglladdr6>
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
@@ -2013,7 +2022,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <client version="0.0.7">
         <clients>
           <client uuid="33c858a1-12ae-40f7-9b6c-dedbee0d7e98">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>Hetzner</name>
             <pubkey>K5NmQwMMak9MIHiUZvE8Ft5j0aNdGl6VHApt9uKVXG4=</pubkey>
             <psk/>
@@ -2025,7 +2034,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </clients>
       </client>
       <general version="0.0.1">
-        <enabled>0</enabled>
+        <enabled>1</enabled>
       </general>
       <server version="0.0.4">
         <servers>
@@ -2038,7 +2047,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <port>51820</port>
             <mtu/>
             <dns/>
-            <tunneladdress>172.10.0.1/24</tunneladdress>
+            <tunneladdress>0.0.0.0/0</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
@@ -2047,6 +2056,16 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </servers>
       </server>
     </wireguard>
+    <ntopng>
+      <general version="0.0.1">
+        <enabled>0</enabled>
+        <interface/>
+        <httpport>3000</httpport>
+        <httpsport/>
+        <cert/>
+        <dnsmode/>
+      </general>
+    </ntopng>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0"/>
@@ -2145,5 +2164,19 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <descr>Interface WAN_DHCP6 Gateway</descr>
       <monitor>2620:fe::fe</monitor>
     </gateway_item>
+    <gateway_item>
+      <interface>opt1</interface>
+      <gateway>dynamic</gateway>
+      <name>CloudfirewallHetzner</name>
+      <priority>255</priority>
+      <weight>1</weight>
+      <ipprotocol>inet</ipprotocol>
+      <interval/>
+      <descr/>
+      <monitor_disable>1</monitor_disable>
+    </gateway_item>
   </gateways>
+  <dnsmasq>
+    <regdhcp>1</regdhcp>
+  </dnsmasq>
 </opnsense>
