@@ -597,8 +597,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705692470.7588</time>
-    <description>/system_gateways_edit.php made changes</description>
+    <time>1705692525.8166</time>
+    <description>Widget configuration has been changed</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
