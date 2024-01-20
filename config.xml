@@ -602,8 +602,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/routes/routes/delroute/b47f29c2-9372-45bf-a8a7-2ee777766cea machte &#xC4;nderungen</description>
-    <time>1705705301.6024</time>
+    <description>/api/wireguard/server/setServer/33adae89-ade3-422c-806f-964066b72b8c machte &#xC4;nderungen</description>
+    <time>1705705426.8837</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2052,7 +2052,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <port>51820</port>
             <mtu/>
             <dns/>
-            <tunneladdress>172.10.0.1/32</tunneladdress>
+            <tunneladdress>172.16.0.1/24</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
