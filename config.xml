@@ -441,7 +441,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -602,8 +602,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/routes/routes/addroute/ machte &#xC4;nderungen</description>
-    <time>1705704933.4708</time>
+    <time>1705705103.0513</time>
+    <description>/system_gateways_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2188,9 +2188,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <priority>255</priority>
       <weight>1</weight>
       <ipprotocol>inet</ipprotocol>
-      <interval/>
       <descr/>
       <monitor_disable>1</monitor_disable>
+      <monitor>172.10.0.2</monitor>
     </gateway_item>
   </gateways>
   <dnsmasq>
