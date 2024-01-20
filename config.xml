@@ -598,7 +598,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/ntopng/general/set machte &#xC4;nderungen</description>
-    <time>1705686463.8071</time>
+    <time>1705686554.3013</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2059,7 +2059,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <ntopng>
       <general version="0.0.1">
         <enabled>1</enabled>
-        <interface/>
+        <interface>lan</interface>
         <httpport>3000</httpport>
         <httpsport/>
         <cert/>
