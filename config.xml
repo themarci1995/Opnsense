@@ -602,7 +602,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705705103.0513</time>
+    <time>1705705123.789</time>
     <description>/system_gateways_edit.php made changes</description>
   </revision>
   <OPNsense>
@@ -2189,7 +2189,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <weight>1</weight>
       <ipprotocol>inet</ipprotocol>
       <descr/>
-      <monitor_disable>1</monitor_disable>
       <monitor>172.10.0.2</monitor>
     </gateway_item>
   </gateways>
