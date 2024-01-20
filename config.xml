@@ -598,7 +598,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/wireguard/client/setClient/2af34a9a-3733-48d8-91cc-a551f126c1cb machte &#xC4;nderungen</description>
-    <time>1705696219.2781</time>
+    <time>1705696309.8039</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2039,7 +2039,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <tunneladdress>192.188.0.2/32</tunneladdress>
             <serveraddress>188.34.155.87</serveraddress>
             <serverport>51820</serverport>
-            <keepalive/>
+            <keepalive>25</keepalive>
           </client>
         </clients>
       </client>
