@@ -602,8 +602,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1705705201.953</time>
-    <description>/system_gateways_edit.php made changes</description>
+    <description>/api/routes/routes/addroute/ machte &#xC4;nderungen</description>
+    <time>1705705282.8528</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2086,6 +2086,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <staticroutes version="1.0.0">
     <route uuid="c8eb5f1b-edd7-420d-aac8-cdc5d956b672">
       <network>172.10.0.0/24</network>
+      <gateway>CloudfirewallHetzner</gateway>
+      <descr/>
+      <disabled>0</disabled>
+    </route>
+    <route uuid="b47f29c2-9372-45bf-a8a7-2ee777766cea">
+      <network>0.0.0.0/0</network>
       <gateway>CloudfirewallHetzner</gateway>
       <descr/>
       <disabled>0</disabled>
