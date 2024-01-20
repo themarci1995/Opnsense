@@ -282,7 +282,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-bind,os-collectd,os-ddclient,os-elasticsearch7-maxit,os-frr,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-ntopng,os-sensei,os-sensei-agent,os-sensei-updater,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat,os-wireguard,os-wireguard-go</plugins>
+      <plugins>os-acme-client,os-bind,os-collectd,os-ddclient,os-elasticsearch7-maxit,os-frr,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-ntopng,os-redis,os-sensei,os-sensei-agent,os-sensei-updater,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat,os-wireguard,os-wireguard-go</plugins>
       <type/>
       <subscription/>
     </firmware>
@@ -598,7 +598,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1705686399.0809</time>
+    <time>1705686424.6763</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
