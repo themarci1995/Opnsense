@@ -601,9 +601,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1705705587.4357</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.57</username>
+    <description>/api/routes/routes/setroute/c8eb5f1b-edd7-420d-aac8-cdc5d956b672 machte &#xC4;nderungen</description>
+    <time>1705705721.998</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2085,7 +2085,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </vlans>
   <staticroutes version="1.0.0">
     <route uuid="c8eb5f1b-edd7-420d-aac8-cdc5d956b672">
-      <network>172.10.0.0/24</network>
+      <network>172.16.0.0/24</network>
       <gateway>CloudfirewallHetzner</gateway>
       <descr/>
       <disabled>0</disabled>
