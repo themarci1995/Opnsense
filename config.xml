@@ -497,8 +497,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_65ad37d31e1da7.01211754</associated-rule-id>
-      <target>10.0.0.111</target>
-      <local-port>8123</local-port>
+      <target>10.0.0.137</target>
+      <local-port>80</local-port>
       <source>
         <any>1</any>
       </source>
@@ -508,7 +508,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </destination>
       <updated>
         <username>root@10.0.0.163</username>
-        <time>1705850835.1235</time>
+        <time>1705851017.2589</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -578,8 +578,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>10.0.0.111</address>
-        <port>8123</port>
+        <address>10.0.0.137</address>
+        <port>80</port>
       </destination>
       <descr/>
       <category/>
@@ -653,8 +653,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.163</username>
-    <time>1705850836.7814</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1705851017.3657</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
