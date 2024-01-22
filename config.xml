@@ -492,7 +492,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr/>
+      <descr>Proxymanager 80</descr>
       <tag/>
       <tagged/>
       <poolopts/>
@@ -504,11 +504,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </source>
       <destination>
         <network>wanip</network>
-        <port>8123</port>
+        <port>80</port>
       </destination>
       <updated>
         <username>root@10.0.0.163</username>
-        <time>1705851017.2589</time>
+        <time>1705851292.2136</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -581,7 +581,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <address>10.0.0.137</address>
         <port>80</port>
       </destination>
-      <descr/>
+      <descr>Proxymanager 80</descr>
       <category/>
       <created>
         <username>root@10.0.0.163</username>
@@ -653,8 +653,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.163</username>
-    <time>1705851202.3942</time>
-    <description>/system_advanced_admin.php made changes</description>
+    <time>1705851292.3073</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
