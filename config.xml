@@ -592,9 +592,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1705848121.978</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.163</username>
+    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
+    <time>1705848191.5882</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2030,7 +2030,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </clients>
       </client>
       <general version="0.0.1">
-        <enabled>0</enabled>
+        <enabled>1</enabled>
       </general>
       <server version="0.0.4">
         <servers>
