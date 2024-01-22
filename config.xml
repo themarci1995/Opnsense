@@ -601,9 +601,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1705848191.8085</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.163</username>
+    <description>/api/wireguard/client/setClient/33c858a1-12ae-40f7-9b6c-dedbee0d7e98 machte &#xC4;nderungen</description>
+    <time>1705848307.6963</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2031,7 +2031,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <name>Hetzner</name>
             <pubkey>K5NmQwMMak9MIHiUZvE8Ft5j0aNdGl6VHApt9uKVXG4=</pubkey>
             <psk/>
-            <tunneladdress>0.0.0.0/0</tunneladdress>
+            <tunneladdress>0.0.0.0/0,192.188.0.0/24</tunneladdress>
             <serveraddress>2a01:4f8:c010:8604::</serveraddress>
             <serverport>51820</serverport>
             <keepalive>25</keepalive>
