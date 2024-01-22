@@ -517,6 +517,36 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Proxymanager 81</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_65ad39b3b5f257.71150464</associated-rule-id>
+      <target>10.0.0.137</target>
+      <local-port>81</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>81</port>
+      </destination>
+      <updated>
+        <username>root@10.0.0.163</username>
+        <time>1705851315.7453</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.163</username>
+        <time>1705851315.7453</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="306ca0e7-fb04-4577-9e41-54e801366203">
@@ -589,6 +619,27 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <associated-rule-id>nat_65ad39b3b5f257.71150464</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.137</address>
+        <port>81</port>
+      </destination>
+      <descr>Proxymanager 81</descr>
+      <category/>
+      <created>
+        <username>root@10.0.0.163</username>
+        <time>1705851315.7453</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
   <rrd>
@@ -653,7 +704,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.163</username>
-    <time>1705851292.3073</time>
+    <time>1705851315.8403</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
