@@ -602,8 +602,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.163</username>
-    <description>/api/routes/routes/setroute/c8eb5f1b-edd7-420d-aac8-cdc5d956b672 machte &#xC4;nderungen</description>
-    <time>1705842975.2099</time>
+    <description>/api/wireguard/server/setServer/33adae89-ade3-422c-806f-964066b72b8c machte &#xC4;nderungen</description>
+    <time>1705844340.1353</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2052,7 +2052,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <port>51820</port>
             <mtu/>
             <dns/>
-            <tunneladdress>172.10.0.1/24</tunneladdress>
+            <tunneladdress>172.10.0.0/24</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
