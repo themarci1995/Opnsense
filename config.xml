@@ -441,7 +441,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -487,6 +487,36 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <mode>hybrid</mode>
       <rule/>
     </outbound>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_65ad37d31e1da7.01211754</associated-rule-id>
+      <target>10.0.0.111</target>
+      <local-port>8123</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>8123</port>
+      </destination>
+      <updated>
+        <username>root@10.0.0.163</username>
+        <time>1705850835.1235</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.163</username>
+        <time>1705850835.1235</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="306ca0e7-fb04-4577-9e41-54e801366203">
@@ -536,6 +566,27 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <username>root@10.0.0.57</username>
         <time>1705485630.4287</time>
         <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <associated-rule-id>nat_65ad37d31e1da7.01211754</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.111</address>
+        <port>8123</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.163</username>
+        <time>1705850835.1234</time>
+        <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
@@ -602,8 +653,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.163</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1705850467.4507</time>
+    <time>1705850835.2169</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
