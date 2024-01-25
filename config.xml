@@ -410,6 +410,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <descr/>
       <enable>1</enable>
       <spoofmac/>
+      <mtu>9000</mtu>
       <ipaddr>10.0.0.1</ipaddr>
       <subnet>8</subnet>
       <ipaddrv6>track6</ipaddrv6>
@@ -807,7 +808,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <time>1706090130.6206</time>
+    <time>1706090189.2377</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
