@@ -352,6 +352,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <spoofmac/>
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
+      <mtu>9000</mtu>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
       <alias-address/>
@@ -805,9 +806,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.137</username>
-    <time>1705924133.5554</time>
-    <description>/firewall_nat.php made changes</description>
+    <username>root@10.0.0.162</username>
+    <time>1706090130.6206</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
