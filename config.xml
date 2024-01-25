@@ -808,8 +808,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <description>/api/dyndns/settings/set machte &#xC4;nderungen</description>
-    <time>1706094313.3</time>
+    <description>/api/dyndns/accounts/set_item/dcb7e8cb-7551-42f9-9d6f-afc71be787fd machte &#xC4;nderungen</description>
+    <time>1706094404.0899</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2220,7 +2220,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <hostnames>marcelheider.de</hostnames>
           <wildcard>0</wildcard>
           <zone/>
-          <checkip>web_ip6only.me</checkip>
+          <checkip>web_ip4only.me</checkip>
           <checkip_timeout>10</checkip_timeout>
           <force_ssl>1</force_ssl>
           <ttl>300</ttl>
