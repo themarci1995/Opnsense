@@ -808,8 +808,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <description>/api/dyndns/accounts/add_item/ machte &#xC4;nderungen</description>
-    <time>1706094424.2371</time>
+    <description>/api/dyndns/settings/set machte &#xC4;nderungen</description>
+    <time>1706094426.5057</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
