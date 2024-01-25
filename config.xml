@@ -808,8 +808,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <description>/api/dyndns/accounts/set_item/edf744e5-15c6-42ac-976d-11621220a127 machte &#xC4;nderungen</description>
-    <time>1706094436.5162</time>
+    <description>/api/wireguard/server/setServer/33adae89-ade3-422c-806f-964066b72b8c machte &#xC4;nderungen</description>
+    <time>1706129384.8449</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2276,7 +2276,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <port>51820</port>
             <mtu/>
             <dns/>
-            <tunneladdress/>
+            <tunneladdress>10.10.10.10/8</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
