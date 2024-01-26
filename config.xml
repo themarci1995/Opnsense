@@ -443,7 +443,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -589,7 +589,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_65ae5623619fd1.51431950</associated-rule-id>
-      <target>10.0.0.137</target>
+      <target>10.0.0.173</target>
       <local-port>51820</local-port>
       <source>
         <any>1</any>
@@ -599,8 +599,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <port>51820</port>
       </destination>
       <updated>
-        <username>root@10.0.0.137</username>
-        <time>1705924131.4</time>
+        <username>root@10.0.0.162</username>
+        <time>1706215816.9444</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -733,7 +733,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <protocol>udp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>10.0.0.137</address>
+        <address>10.0.0.173</address>
         <port>51820</port>
       </destination>
       <descr>Wg </descr>
@@ -807,9 +807,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1706131737.9466</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.162</username>
+    <time>1706215817.0719</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
