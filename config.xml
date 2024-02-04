@@ -443,7 +443,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Gruppe)</descr>
+      <descr>WireGuard (Group)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -811,9 +811,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <time>1706455552.6245</time>
-    <description>/services_dhcp.php made changes</description>
+    <username>(root)</username>
+    <time>1706970193.3115</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
