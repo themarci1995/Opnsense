@@ -215,6 +215,7 @@
       <scope>system</scope>
       <gid>1999</gid>
       <member>0</member>
+      <member>2000</member>
       <priv>page-all</priv>
     </group>
     <user>
@@ -234,7 +235,18 @@
       <authorizedkeys/>
       <otp_seed/>
     </user>
-    <nextuid>2000</nextuid>
+    <user>
+      <password>$2y$11$0IBDNuyNNgFE3MSXk9Bdh.1oe.JOLf1Y1rS8Wfws3ErT.x7NvDoSK</password>
+      <scope>user</scope>
+      <name>opnsync</name>
+      <descr/>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell>/bin/csh</shell>
+      <uid>2000</uid>
+    </user>
+    <nextuid>2001</nextuid>
     <nextgid>2000</nextgid>
     <timezone>Europe/Berlin</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
@@ -443,7 +455,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -811,9 +823,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1707142065.533</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.57</username>
+    <time>1707142314.8838</time>
+    <description>user "opnsync" created</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
