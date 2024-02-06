@@ -812,8 +812,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1707141885.5621</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1707141885.9804</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
