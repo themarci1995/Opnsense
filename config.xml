@@ -811,9 +811,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <time>1706998060.1512</time>
-    <description>/firewall_nat.php made changes</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
+    <time>1707141869.9323</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -858,19 +858,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <command>acmeclient cron-auto-renew</command>
           <parameters/>
           <description>AcmeClient Cronjob for Certificate AutoRenewal</description>
-        </job>
-        <job uuid="e2fb6fc2-6803-4a5a-bee0-76c2c89039cd">
-          <origin>Zenarmor</origin>
-          <enabled>1</enabled>
-          <minutes>*</minutes>
-          <hours>*</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>zenarmor periodicals</command>
-          <parameters>&gt; /dev/null 2&gt;&amp;1</parameters>
-          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
