@@ -230,6 +230,10 @@
           <key>utNERM3MzWNph2VS2RsUQajKkwYaGLSKMKIIxpQqkXMonVKrpcNPq+tRzBS8sA9C61ahaFsKJ2VMHagK</key>
           <secret>$6$$QKfzH9aH7KhngG7WsHa4Sk0rqVTfbMTE.8P0mxpxpSb.ZPkVpKl2GvimawmRV3lBlanmzJEBjGyVBPK/jjNeR.</secret>
         </item>
+        <item>
+          <key>J92YoJ9gdDJ+ZvXL4LbBUkGfRGX0TmPtYXMkbvVhrB+FYtvEAimpCgruezMB7xp7vfp95U4bZgZQBjxg</key>
+          <secret>$6$$Db9lwwJrLjvKRHU.Yot8CvPCCmacrZBb8JEorBOpD.BIL9fspcidYyTVaQ0Pk2Ig/bDqEn26DHpu04Zf96KVj.</secret>
+        </item>
       </apikeys>
       <expires/>
       <authorizedkeys/>
@@ -823,9 +827,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <time>1707142314.8838</time>
-    <description>user "opnsync" created</description>
+    <username>root@10.0.0.70</username>
+    <description>/system_usermanager.php?act=edit&amp;userid=0 machte &#xC4;nderungen</description>
+    <time>1707724944.2808</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
