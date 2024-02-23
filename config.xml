@@ -604,7 +604,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Wg </descr>
+      <descr>Wg Server Mango</descr>
       <tag/>
       <tagged/>
       <poolopts/>
@@ -620,7 +620,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </destination>
       <updated>
         <username>root@10.0.0.57</username>
-        <time>1706998058.3545</time>
+        <time>1708636826.192</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -817,7 +817,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <address>10.0.0.173</address>
         <port>51820</port>
       </destination>
-      <descr>Wg </descr>
+      <descr>Wg Server Mango</descr>
       <category/>
       <created>
         <username>root@10.0.0.137</username>
@@ -932,8 +932,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1708636807.4527</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1708636826.2895</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
