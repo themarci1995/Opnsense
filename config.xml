@@ -931,9 +931,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1708606757.8156</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.192</username>
+    <description>/api/wireguard/client/toggleClient/97a683b1-162a-4e83-968c-595a1c781896 machte &#xC4;nderungen</description>
+    <time>1708606913.4515</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2386,7 +2386,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <keepalive>25</keepalive>
           </client>
           <client uuid="97a683b1-162a-4e83-968c-595a1c781896">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>OpenWRT</name>
             <pubkey>B6fSEkqroEZWYzRctz1LaYruu17Sr685vb22nBZuzxc=</pubkey>
             <psk/>
