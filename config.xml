@@ -932,8 +932,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.192</username>
-    <description>/api/wireguard/client/toggleClient/97a683b1-162a-4e83-968c-595a1c781896 machte &#xC4;nderungen</description>
-    <time>1708606913.4515</time>
+    <description>/api/wireguard/client/delClient/97a683b1-162a-4e83-968c-595a1c781896 machte &#xC4;nderungen</description>
+    <time>1708606917.4866</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2382,16 +2382,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <psk/>
             <tunneladdress>10.0.0.0/8</tunneladdress>
             <serveraddress>2a01:4f8:c010:8604::</serveraddress>
-            <serverport>51820</serverport>
-            <keepalive>25</keepalive>
-          </client>
-          <client uuid="97a683b1-162a-4e83-968c-595a1c781896">
-            <enabled>0</enabled>
-            <name>OpenWRT</name>
-            <pubkey>B6fSEkqroEZWYzRctz1LaYruu17Sr685vb22nBZuzxc=</pubkey>
-            <psk/>
-            <tunneladdress>10.100.0.2/32</tunneladdress>
-            <serveraddress>10.0.0.192</serveraddress>
             <serverport>51820</serverport>
             <keepalive>25</keepalive>
           </client>
