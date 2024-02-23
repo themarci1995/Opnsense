@@ -634,11 +634,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Wg </descr>
+      <descr>Wg Server Opnsense</descr>
       <tag/>
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
+      <disabled>1</disabled>
       <target>10.0.0.1</target>
       <local-port>51820</local-port>
       <source>
@@ -649,8 +650,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <port>51820</port>
       </destination>
       <updated>
-        <username>root@10.0.0.192</username>
-        <time>1708606426.7039</time>
+        <username>root@10.0.0.57</username>
+        <time>1708636845.0399</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -658,7 +659,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7039</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>udp</protocol>
@@ -859,7 +859,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <address>10.0.0.1</address>
         <port>51820</port>
       </destination>
-      <descr>Wg </descr>
+      <descr>Wg Server Opnsense</descr>
       <category/>
       <created>
         <username>root@10.0.0.192</username>
@@ -932,8 +932,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1708636829.8559</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1708636845.1343</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
