@@ -635,6 +635,36 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
+      <descr>Wg </descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
+      <target>10.0.0.1</target>
+      <local-port>51820</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>51820</port>
+      </destination>
+      <updated>
+        <username>root@10.0.0.192</username>
+        <time>1708606426.7039</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.192</username>
+        <time>1708606426.7039</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>udp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
       <descr>OVPN</descr>
       <tag/>
       <tagged/>
@@ -817,6 +847,27 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.1</address>
+        <port>51820</port>
+      </destination>
+      <descr>Wg </descr>
+      <category/>
+      <created>
+        <username>root@10.0.0.192</username>
+        <time>1708606426.7038</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
   <rrd>
@@ -881,8 +932,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.192</username>
-    <time>1708606384.7198</time>
-    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
+    <time>1708606426.7979</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
