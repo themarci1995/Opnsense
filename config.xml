@@ -878,9 +878,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <time>1708597952.1897</time>
-    <description>/firewall_nat.php made changes</description>
+    <username>root@10.0.0.192</username>
+    <description>/api/wireguard/server/setServer/33adae89-ade3-422c-806f-964066b72b8c machte &#xC4;nderungen</description>
+    <time>1708606244.0821</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2348,7 +2348,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <port>51820</port>
             <mtu/>
             <dns/>
-            <tunneladdress>10.10.10.10/8</tunneladdress>
+            <tunneladdress>10.100.0.1/24</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
