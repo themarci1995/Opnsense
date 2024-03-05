@@ -460,7 +460,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -867,7 +867,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7038</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -933,8 +932,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.107</username>
-    <description>/api/wireguard/server/setServer/33adae89-ade3-422c-806f-964066b72b8c machte &#xC4;nderungen</description>
-    <time>1709584661.1126</time>
+    <time>1709584721.1125</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
