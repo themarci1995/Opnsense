@@ -640,7 +640,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
-      <disabled>1</disabled>
       <target>10.0.0.1</target>
       <local-port>51820</local-port>
       <source>
@@ -932,8 +931,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.107</username>
-    <time>1709584721.1125</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1709584734.41</time>
+    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
