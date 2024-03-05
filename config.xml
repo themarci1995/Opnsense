@@ -867,6 +867,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7038</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -932,7 +933,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.189</username>
-    <time>1709587224.75</time>
+    <time>1709587226.7556</time>
     <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
