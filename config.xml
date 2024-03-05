@@ -455,6 +455,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <opt2>
       <if>wg2</if>
       <descr>WGOPNsiteaHetzner</descr>
+      <enable>1</enable>
       <spoofmac/>
     </opt2>
   </interfaces>
@@ -922,9 +923,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1709074842.7502</time>
+    <username>root@10.0.0.137</username>
+    <time>1709560395.1241</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
