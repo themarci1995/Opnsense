@@ -659,6 +659,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7039</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>udp</protocol>
@@ -932,7 +933,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.189</username>
-    <time>1709587238.3717</time>
+    <time>1709587242.1322</time>
     <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
