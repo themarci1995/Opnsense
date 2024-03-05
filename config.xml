@@ -825,7 +825,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1705924131.3999</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule>
       <associated-rule-id>nat_65d722be369154.07474047</associated-rule-id>
@@ -932,9 +931,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.107</username>
-    <description>/api/wireguard/client/setClient/33c858a1-12ae-40f7-9b6c-dedbee0d7e98 machte &#xC4;nderungen</description>
-    <time>1709585315.2009</time>
+    <username>root@10.0.0.189</username>
+    <time>1709587224.75</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
