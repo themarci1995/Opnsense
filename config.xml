@@ -932,9 +932,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.189</username>
-    <time>1709587246.0099</time>
-    <description>/firewall_nat.php made changes</description>
+    <username>root@10.0.0.107</username>
+    <description>/api/wireguard/client/setClient/33c858a1-12ae-40f7-9b6c-dedbee0d7e98 machte &#xC4;nderungen</description>
+    <time>1709671944.1637</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
