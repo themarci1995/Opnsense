@@ -508,7 +508,37 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule/>
+      <rule>
+        <source>
+          <network>any</network>
+        </source>
+        <destination>
+          <network>(self)</network>
+        </destination>
+        <descr/>
+        <category/>
+        <interface>wan</interface>
+        <tag/>
+        <tagged/>
+        <poolopts/>
+        <poolopts_sourcehashkey/>
+        <ipprotocol>inet6</ipprotocol>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <sourceport>51820</sourceport>
+        <dstport>51820</dstport>
+        <protocol>udp</protocol>
+        <updated>
+          <username>root@10.0.0.137</username>
+          <time>1709725956.1731</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
+        <created>
+          <username>root@10.0.0.137</username>
+          <time>1709725956.1731</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </created>
+      </rule>
     </outbound>
     <rule>
       <protocol>tcp</protocol>
@@ -935,8 +965,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1709725870.474</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1709725956.2672</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
