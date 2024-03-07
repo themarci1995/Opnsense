@@ -932,9 +932,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.107</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1709672807.4026</time>
+    <username>root@10.0.0.137</username>
+    <description>/api/wireguard/client/setClient/33c858a1-12ae-40f7-9b6c-dedbee0d7e98 machte &#xC4;nderungen</description>
+    <time>1709724417.8872</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2382,7 +2382,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <pubkey>B9/KSouU0GVEWx0aiu3xW5OTx9Wg/DWwgPxutASTgTc=</pubkey>
             <psk/>
             <tunneladdress>172.16.0.2/24</tunneladdress>
-            <serveraddress>opnsensehetzner.marcelheider.de</serveraddress>
+            <serveraddress>pfsenseipv6hetzner.marcelheider.de</serveraddress>
             <serverport>51820</serverport>
             <keepalive>25</keepalive>
           </client>
