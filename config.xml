@@ -460,7 +460,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -659,7 +659,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7039</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>udp</protocol>
@@ -867,7 +866,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7038</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -932,9 +930,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1709724773.092</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.137</username>
+    <time>1709724835.3812</time>
+    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
