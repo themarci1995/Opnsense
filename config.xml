@@ -498,6 +498,14 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>bc:24:11:16:3d:16</mac>
+        <ipaddr>10.0.0.137</ipaddr>
+        <hostname>Dockerlaptop</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </lan>
   </dhcpd>
   <snmpd>
@@ -962,9 +970,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@2003:c0:bf15:aaff:8d9d:a1b8:202c:af05</username>
-    <time>1709727034.9574</time>
-    <description>/firewall_nat.php made changes</description>
+    <username>root@10.10.10.1</username>
+    <time>1710278702.8593</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
