@@ -501,7 +501,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <staticmap>
         <mac>bc:24:11:16:3d:16</mac>
         <ipaddr>10.0.0.137</ipaddr>
-        <hostname>Dockerlaptop</hostname>
+        <hostname>docker</hostname>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -970,8 +970,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.10.10.1</username>
-    <time>1710278702.8593</time>
+    <username>root@10.0.0.57</username>
+    <time>1710407133.6928</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
