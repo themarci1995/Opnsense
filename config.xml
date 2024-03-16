@@ -655,11 +655,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </source>
       <destination>
         <network>wanip</network>
-        <port>51821</port>
+        <port>51820-51821</port>
       </destination>
       <updated>
-        <username>root@2003:c0:bf15:aaff:8d9d:a1b8:202c:af05</username>
-        <time>1709727033.1637</time>
+        <username>root@10.0.0.116</username>
+        <time>1710497396.8631</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -854,7 +854,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>10.0.0.173</address>
-        <port>51820</port>
+        <port>51820-51821</port>
       </destination>
       <descr>Wg Server Mango</descr>
       <category/>
@@ -973,8 +973,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.116</username>
-    <time>1710497385.5074</time>
-    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
+    <time>1710497396.958</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
