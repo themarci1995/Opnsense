@@ -468,8 +468,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <networks/>
     </wireguard>
     <opt3>
-      <descr>Tailscale</descr>
       <if>tailscale0</if>
+      <descr>Tailscale</descr>
+      <enable>1</enable>
+      <lock>1</lock>
+      <spoofmac/>
     </opt3>
   </interfaces>
   <dhcpd>
@@ -978,8 +981,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <time>1710538629.2396</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1710538745.5928</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
