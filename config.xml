@@ -467,6 +467,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <type>group</type>
       <networks/>
     </wireguard>
+    <opt3>
+      <descr>Tailscale</descr>
+      <if>tailscale0</if>
+    </opt3>
   </interfaces>
   <dhcpd>
     <lan>
@@ -973,9 +977,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.116</username>
-    <time>1710498902.8413</time>
-    <description>/firewall_rules.php made changes</description>
+    <username>root@10.0.0.162</username>
+    <time>1710538629.2396</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
