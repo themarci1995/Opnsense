@@ -973,8 +973,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.116</username>
-    <time>1710498748.6349</time>
-    <description>/firewall_nat_edit.php made changes</description>
+    <time>1710498750.4948</time>
+    <description>/firewall_nat.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
