@@ -697,6 +697,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7039</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>udp</protocol>
@@ -906,6 +907,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
       <log>1</log>
+      <disabled>1</disabled>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
@@ -970,9 +972,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,wan</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <time>1710407133.6928</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>root@10.0.0.116</username>
+    <time>1710497385.5074</time>
+    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
