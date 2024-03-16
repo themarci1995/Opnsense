@@ -655,11 +655,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </source>
       <destination>
         <network>wanip</network>
-        <port>51820-51821</port>
+        <port>51820</port>
       </destination>
       <updated>
         <username>root@10.0.0.116</username>
-        <time>1710497396.8631</time>
+        <time>1710498748.5409</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -854,7 +854,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>10.0.0.173</address>
-        <port>51820-51821</port>
+        <port>51820</port>
       </destination>
       <descr>Wg Server Mango</descr>
       <category/>
@@ -973,8 +973,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.116</username>
-    <time>1710497398.9542</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1710498748.6349</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
