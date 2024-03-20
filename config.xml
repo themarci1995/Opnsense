@@ -982,7 +982,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/zenarmor/configuration/license-detail machte &#xC4;nderungen</description>
-    <time>1710869357.0894</time>
+    <time>1710869357.2762</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2334,7 +2334,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </communityid>
       <streamReportConfig>
         <enabled>false</enabled>
-        <server>127.0.0.1</server>
+        <server/>
         <port>514</port>
         <protocol>UDP</protocol>
         <indexes/>
