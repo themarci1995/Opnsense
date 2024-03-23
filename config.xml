@@ -452,12 +452,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <enable>1</enable>
       <spoofmac/>
     </opt1>
-    <opt2>
-      <if>wg2</if>
-      <descr>WGOPNsiteaHetzner</descr>
-      <enable>1</enable>
-      <spoofmac/>
-    </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
       <descr>WireGuard (Gruppe)</descr>
@@ -981,8 +975,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1711143880.1825</time>
-    <description>Widget configuration has been changed</description>
+    <time>1711143960.8817</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
