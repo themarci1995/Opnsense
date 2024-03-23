@@ -651,12 +651,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>Wg Server Mango</descr>
+      <descr>Wg Server GL-A1300</descr>
       <tag/>
       <tagged/>
       <poolopts/>
-      <associated-rule-id>nat_65ae5623619fd1.51431950</associated-rule-id>
-      <target>10.0.0.173</target>
+      <associated-rule-id/>
+      <target>10.0.0.125</target>
       <local-port>51820</local-port>
       <source>
         <any>1</any>
@@ -666,8 +666,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <port>51820</port>
       </destination>
       <updated>
-        <username>root@10.0.0.116</username>
-        <time>1710498748.5409</time>
+        <username>root@10.0.0.57</username>
+        <time>1711151059.1765</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -852,28 +852,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </created>
     </rule>
     <rule>
-      <associated-rule-id>nat_65ae5623619fd1.51431950</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.173</address>
-        <port>51820</port>
-      </destination>
-      <descr>Wg Server Mango</descr>
-      <category/>
-      <created>
-        <username>root@10.0.0.137</username>
-        <time>1705924131.3999</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
-    <rule>
       <associated-rule-id>nat_65d722be369154.07474047</associated-rule-id>
       <source>
         <any>1</any>
@@ -982,8 +960,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1711144628.0718</time>
-    <description>Saved IPcheck Filters via Dashboard</description>
+    <time>1711151059.2717</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
