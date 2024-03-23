@@ -468,6 +468,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <lock>1</lock>
       <spoofmac/>
     </opt3>
+    <opt2>
+      <descr>Zerotier</descr>
+      <if>zt8ao97ig65m0c6</if>
+    </opt2>
   </interfaces>
   <dhcpd>
     <lan>
@@ -975,7 +979,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1711143965.7916</time>
+    <time>1711143973.7134</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
