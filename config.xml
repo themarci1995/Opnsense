@@ -980,9 +980,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1711143288.8992</time>
+    <username>root@10.0.0.57</username>
+    <description>/api/zerotier/settings/set machte &#xC4;nderungen</description>
+    <time>1711143730.2589</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2470,9 +2470,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </general>
     </ntopng>
     <zerotier version="1.3.0">
-      <enabled>0</enabled>
-      <apiAccessToken/>
-      <localconf/>
+      <enabled>1</enabled>
+      <apiAccessToken>0xhtqVnMKbkx6t62IbPV0KJIBAmHBGsg</apiAccessToken>
+      <localconf>{}</localconf>
       <networks/>
     </zerotier>
   </OPNsense>
