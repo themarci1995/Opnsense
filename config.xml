@@ -980,9 +980,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <description>/api/zenarmor/configuration/license-detail machte &#xC4;nderungen</description>
-    <time>1710869357.2762</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1711143288.0191</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2469,6 +2469,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <dnsmode/>
       </general>
     </ntopng>
+    <zerotier version="1.3.0">
+      <enabled>0</enabled>
+      <apiAccessToken/>
+      <localconf/>
+      <networks/>
+    </zerotier>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0"/>
