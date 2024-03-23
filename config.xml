@@ -981,8 +981,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/zerotier/network/add/ machte &#xC4;nderungen</description>
-    <time>1711143776.6226</time>
+    <description>/api/zerotier/network/toggle/44d3f6fc-6507-4e7f-a40d-17089ddcece3 machte &#xC4;nderungen</description>
+    <time>1711143783.6846</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2475,7 +2475,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <localconf>{}</localconf>
       <networks>
         <network uuid="44d3f6fc-6507-4e7f-a40d-17089ddcece3">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <networkId>856127940c5b0186</networkId>
           <description/>
         </network>
