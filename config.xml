@@ -712,12 +712,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
-      <descr>OVPN</descr>
+      <descr>OVPN GL-A1300</descr>
       <tag/>
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_65d722be369154.07474047</associated-rule-id>
-      <target>10.0.0.173</target>
+      <target>10.0.0.125</target>
       <local-port>1194</local-port>
       <source>
         <any>1</any>
@@ -728,7 +728,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </destination>
       <updated>
         <username>root@10.0.0.57</username>
-        <time>1708597950.2236</time>
+        <time>1711151092.7825</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -861,17 +861,16 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <protocol>udp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>10.0.0.173</address>
+        <address>10.0.0.125</address>
         <port>1194</port>
       </destination>
-      <descr>OVPN</descr>
+      <descr>OVPN GL-A1300</descr>
       <category/>
       <created>
         <username>root@10.0.0.57</username>
         <time>1708597950.2235</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule>
       <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
@@ -960,7 +959,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1711151059.2717</time>
+    <time>1711151092.8783</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
