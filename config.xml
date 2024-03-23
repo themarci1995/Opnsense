@@ -655,7 +655,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <tag/>
       <tagged/>
       <poolopts/>
-      <associated-rule-id/>
+      <associated-rule-id>pass</associated-rule-id>
       <target>10.0.0.125</target>
       <local-port>51820</local-port>
       <source>
@@ -667,7 +667,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </destination>
       <updated>
         <username>root@10.0.0.57</username>
-        <time>1711151059.1765</time>
+        <time>1711151107.6973</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -959,7 +959,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1711151092.8783</time>
+    <time>1711151107.7933</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
