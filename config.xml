@@ -469,8 +469,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <spoofmac/>
     </opt3>
     <opt2>
-      <descr>Zerotier</descr>
       <if>zt8ao97ig65m0c6</if>
+      <descr>Zerotier</descr>
+      <enable>1</enable>
+      <lock>1</lock>
+      <spoofmac/>
     </opt2>
   </interfaces>
   <dhcpd>
@@ -979,8 +982,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1711143973.7134</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1711143982.444</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
