@@ -234,6 +234,10 @@
           <key>J92YoJ9gdDJ+ZvXL4LbBUkGfRGX0TmPtYXMkbvVhrB+FYtvEAimpCgruezMB7xp7vfp95U4bZgZQBjxg</key>
           <secret>$6$$Db9lwwJrLjvKRHU.Yot8CvPCCmacrZBb8JEorBOpD.BIL9fspcidYyTVaQ0Pk2Ig/bDqEn26DHpu04Zf96KVj.</secret>
         </item>
+        <item>
+          <key>2dbol0VPwzqkE4JkaQ6O1KNleI9p+QOlnutGPKpUKLiebDfO2r8HkWTViD1VydhfyXAyfWXvodKOvEde</key>
+          <secret>$6$$QRgQtsisnLcxUTqIU6fJxu5Hb2tgROfTrBAD1uAo5jVS1QJmXZi21PEndT346TClyl43tbLVmiryWbo7m9G8y.</secret>
+        </item>
       </apikeys>
       <expires/>
       <authorizedkeys/>
@@ -959,8 +963,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1711151178.4787</time>
-    <description>/firewall_nat_edit.php made changes</description>
+    <description>/system_usermanager.php?act=edit&amp;userid=0 machte &#xC4;nderungen</description>
+    <time>1711396089.5104</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
