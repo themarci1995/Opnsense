@@ -741,6 +741,36 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_66044b5e2f8393.51808440</associated-rule-id>
+      <target>10.0.0.126</target>
+      <local-port>25</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>25</port>
+      </destination>
+      <updated>
+        <username>root@10.0.0.1</username>
+        <time>1711557470.1947</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557470.1947</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="306ca0e7-fb04-4577-9e41-54e801366203">
@@ -899,6 +929,27 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <log>1</log>
       <disabled>1</disabled>
     </rule>
+    <rule>
+      <associated-rule-id>nat_66044b5e2f8393.51808440</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>25</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557470.1946</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
   <rrd>
@@ -963,8 +1014,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <time>1711557148.4341</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1711557470.2905</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
