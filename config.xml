@@ -1320,8 +1320,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <description>/api/unbound/settings/addDomainOverride/ machte &#xC4;nderungen</description>
-    <time>1711577017.4472</time>
+    <description>/api/unbound/settings/set machte &#xC4;nderungen</description>
+    <time>1711577145.7002</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1792,14 +1792,14 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <serveexpiredttlreset>0</serveexpiredttlreset>
         <serveexpiredclienttimeout/>
         <qnameminstrict>0</qnameminstrict>
-        <extendedstatistics>0</extendedstatistics>
-        <logqueries>0</logqueries>
-        <logreplies>0</logreplies>
-        <logtagqueryreply>0</logtagqueryreply>
-        <logservfail>0</logservfail>
-        <loglocalactions>0</loglocalactions>
-        <logverbosity>1</logverbosity>
-        <valloglevel>0</valloglevel>
+        <extendedstatistics>1</extendedstatistics>
+        <logqueries>1</logqueries>
+        <logreplies>1</logreplies>
+        <logtagqueryreply>1</logtagqueryreply>
+        <logservfail>1</logservfail>
+        <loglocalactions>1</loglocalactions>
+        <logverbosity>5</logverbosity>
+        <valloglevel>2</valloglevel>
         <privatedomain/>
         <privateaddress>0.0.0.0/8,10.0.0.0/8,100.64.0.0/10,169.254.0.0/16,172.16.0.0/12,192.0.2.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,233.252.0.0/24,::1/128,2001:db8::/32,fc00::/8,fd00::/8,fe80::/10</privateaddress>
         <insecuredomain/>
