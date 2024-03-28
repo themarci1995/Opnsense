@@ -1319,9 +1319,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.1</username>
-    <time>1711557668.9125</time>
-    <description>/firewall_nat.php made changes</description>
+    <username>root@10.0.0.137</username>
+    <description>/api/unbound/settings/addDomainOverride/ machte &#xC4;nderungen</description>
+    <time>1711577017.4472</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1859,7 +1859,15 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </host>
       </hosts>
       <aliases/>
-      <domains/>
+      <domains>
+        <domain uuid="0eb6477e-0ea3-4873-84ac-2ea8b17b27dc">
+          <enabled>1</enabled>
+          <domain>home.marcelheider.local</domain>
+          <server>10.0.0.137@3330</server>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <description/>
+        </domain>
+      </domains>
     </unboundplus>
     <Gateways version="0.0.1"/>
     <NodeExporter version="0.2.0">
