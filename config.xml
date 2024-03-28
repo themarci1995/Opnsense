@@ -962,9 +962,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <description>/system_usermanager.php?act=edit&amp;userid=0 machte &#xC4;nderungen</description>
-    <time>1711396089.5104</time>
+    <username>root@10.0.0.1</username>
+    <time>1711557148.4341</time>
+    <description>/firewall_nat.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
