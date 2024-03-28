@@ -757,12 +757,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <any>1</any>
       </source>
       <destination>
-        <address>10.0.0.126</address>
+        <network>wanip</network>
         <port>25</port>
       </destination>
       <updated>
         <username>root@10.0.0.1</username>
-        <time>1711557470.1947</time>
+        <time>1711557493.2128</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1014,7 +1014,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <time>1711557470.2905</time>
+    <time>1711557493.3089</time>
     <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
