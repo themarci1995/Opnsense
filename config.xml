@@ -476,9 +476,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <netboot>1</netboot>
       <nextserver>10.0.0.137</nextserver>
-      <filename>iventoy_loader_16000</filename>
-      <filename32>iventoy_loader_16000_uefi</filename32>
-      <filename64>iventoy_loader_16000_uefi</filename64>
+      <filename>netboot.xyz.kpxe</filename>
+      <filename32>netboot.xyz.efi</filename32>
+      <filename64>netboot.xyz.efi</filename64>
+      <filename32arm>netboot.xyz-arm64.efi</filename32arm>
+      <filename64arm>netboot.xyz-arm64.efi</filename64arm>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -1310,7 +1312,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <time>1714314961.4569</time>
+    <time>1714316881.8556</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
