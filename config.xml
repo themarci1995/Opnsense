@@ -476,9 +476,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <netboot>1</netboot>
       <nextserver>10.0.0.137</nextserver>
-      <filename>ipxe.x64.snponly.efi.0</filename>
-      <filename32>iventoy_loader_16000</filename32>
-      <filename64>iventoy_loader_16000</filename64>
+      <filename>iventoy_loader_16000</filename>
+      <filename32>ipxe.x64.snponly.efi.0</filename32>
+      <filename64>ipxe.x64.snponly.efi.0</filename64>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -1310,7 +1310,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <time>1714312426.7045</time>
+    <time>1714314302.0974</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
