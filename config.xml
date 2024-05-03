@@ -1311,9 +1311,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.1</username>
-    <time>1714316881.8556</time>
-    <description>/services_dhcp.php made changes</description>
+    <username>root@10.0.0.151</username>
+    <time>1714726800.9831</time>
+    <description>Updated High Availability configuration</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2944,4 +2944,48 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <dnsmasq>
     <regdhcp>1</regdhcp>
   </dnsmasq>
+  <hasync>
+    <synchronizealiases>on</synchronizealiases>
+    <synchronizeauthservers>on</synchronizeauthservers>
+    <synchronizecerts>on</synchronizecerts>
+    <synchronizedhcpd>on</synchronizedhcpd>
+    <synchronizenat>on</synchronizenat>
+    <synchronizerules>on</synchronizerules>
+    <synchronizeschedules>on</synchronizeschedules>
+    <synchronizestaticroutes>on</synchronizestaticroutes>
+    <synchronizeusers>on</synchronizeusers>
+    <synchronizevirtualip>on</synchronizevirtualip>
+    <synchronizewidgets>on</synchronizewidgets>
+    <synchronizebind>on</synchronizebind>
+    <synchronizedhcrelay>on</synchronizedhcrelay>
+    <synchronizedhcpdv6>on</synchronizedhcpdv6>
+    <synchronizedhcrelay6>on</synchronizedhcrelay6>
+    <synchronizentpd>on</synchronizentpd>
+    <synchronizesyslog>on</synchronizesyslog>
+    <synchronizecron>on</synchronizecron>
+    <synchronizesysctl>on</synchronizesysctl>
+    <synchronizewebgui>on</synchronizewebgui>
+    <synchronizeddclient>on</synchronizeddclient>
+    <synchronizednsforwarder>on</synchronizednsforwarder>
+    <synchronizequagga>on</synchronizequagga>
+    <synchronizehaproxy>on</synchronizehaproxy>
+    <synchronizeshaper>on</synchronizeshaper>
+    <synchronizecaptiveportal>on</synchronizecaptiveportal>
+    <synchronizeipsec>on</synchronizeipsec>
+    <synchronizemonit>on</synchronizemonit>
+    <synchronizessh>on</synchronizessh>
+    <synchronizeopenvpn>on</synchronizeopenvpn>
+    <synchronizeifgroups>on</synchronizeifgroups>
+    <synchronizecategories>on</synchronizecategories>
+    <synchronizelvtemplate>on</synchronizelvtemplate>
+    <synchronizesquid>on</synchronizesquid>
+    <synchronizesuricata>on</synchronizesuricata>
+    <synchronizednsresolver>on</synchronizednsresolver>
+    <synchronizewireguard>on</synchronizewireguard>
+    <pfsyncinterface>wan</pfsyncinterface>
+    <synchronizetoip>192.168.7.1</synchronizetoip>
+    <username>root</username>
+    <password>marcel</password>
+    <pfsyncpeerip>192.168.7.1</pfsyncpeerip>
+  </hasync>
 </opnsense>
