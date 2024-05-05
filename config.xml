@@ -1321,8 +1321,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <description>/api/wireguard/client/addClient/ machte &#xC4;nderungen</description>
-    <time>1714908473.5856</time>
+    <description>/api/wireguard/server/addServer/ machte &#xC4;nderungen</description>
+    <time>1714908606.0674</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2788,7 +2788,23 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <enabled>1</enabled>
       </general>
       <server version="0.0.4">
-        <servers/>
+        <servers>
+          <server uuid="ba8fbae9-9b12-4eb8-bb99-7977955d78b0">
+            <enabled>1</enabled>
+            <name>WGtowwgbridge</name>
+            <instance>1</instance>
+            <pubkey>+AFC/XV/C5lYpejEvVgrEi8uZdOLSCukGzCtrmYEHDc=</pubkey>
+            <privkey>0GVBWv/9ERdiLMj8NDSLO9LjCOFa4L7QocCpkQvOrUU=</privkey>
+            <port/>
+            <mtu/>
+            <dns/>
+            <tunneladdress/>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers/>
+          </server>
+        </servers>
       </server>
     </wireguard>
     <ntopng>
