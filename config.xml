@@ -471,7 +471,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -498,7 +498,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <to>10.0.0.200</to>
       </range>
       <winsserver/>
-      <dnsserver>10.20.0.1</dnsserver>
+      <dnsserver>10.0.0.1</dnsserver>
       <dnsserver>10.20.0.2</dnsserver>
       <ntpserver/>
       <staticmap>
@@ -1320,9 +1320,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.137</username>
-    <description>/api/wireguard/server/addServer/ machte &#xC4;nderungen</description>
-    <time>1714908606.0674</time>
+    <username>root@10.0.0.125</username>
+    <time>1715377716.8115</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
