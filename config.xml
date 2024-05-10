@@ -496,7 +496,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <to>10.0.0.200</to>
       </range>
       <winsserver/>
-      <dnsserver>10.0.0.1</dnsserver>
+      <dnsserver>10.20.0.1</dnsserver>
       <dnsserver>10.20.0.2</dnsserver>
       <ntpserver/>
       <staticmap>
@@ -1318,9 +1318,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.125</username>
-    <time>1715377773.6667</time>
-    <description>/system_general.php made changes</description>
+    <username>root@10.0.0.155</username>
+    <time>1715379186.6175</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
