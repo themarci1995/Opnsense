@@ -361,6 +361,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <skip_rules_gw_down>1</skip_rules_gw_down>
     <pfdebug>urgent</pfdebug>
     <dnssearchdomain>marcelheider.local</dnssearchdomain>
+    <prefer_ipv4>1</prefer_ipv4>
   </system>
   <interfaces>
     <wan>
@@ -1319,8 +1320,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.155</username>
-    <description>/api/unbound/settings/set machte &#xC4;nderungen</description>
-    <time>1715379434.1511</time>
+    <time>1715379497.4088</time>
+    <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
