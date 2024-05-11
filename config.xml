@@ -1307,9 +1307,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1715448228.6228</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.137</username>
+    <description>/api/wireguard/server/toggleServer/7c3e9ada-bdd0-499c-8726-c38cca4e4e2f machte &#xC4;nderungen</description>
+    <time>1715448398.3746</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2777,7 +2777,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <server version="0.0.4">
         <servers>
           <server uuid="7c3e9ada-bdd0-499c-8726-c38cca4e4e2f">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>Wgbridge</name>
             <instance>1</instance>
             <pubkey>Iv+Rrma9VsrhaAI/YZ4afYezJ0S3joEqdZxtqNiYbmM=</pubkey>
