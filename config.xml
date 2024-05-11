@@ -1317,8 +1317,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <description>/api/routes/routes/delroute/c8eb5f1b-edd7-420d-aac8-cdc5d956b672 machte &#xC4;nderungen</description>
-    <time>1715447790.0311</time>
+    <time>1715447832.2987</time>
+    <description>Gateways: removed gateway 2</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2927,16 +2927,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <latencyhigh>1000</latencyhigh>
       <losslow>60</losslow>
       <losshigh>100</losshigh>
-    </gateway_item>
-    <gateway_item>
-      <interface>opt1</interface>
-      <gateway>dynamic</gateway>
-      <name>CloudfirewallHetzner</name>
-      <priority>255</priority>
-      <weight>1</weight>
-      <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <monitor>1.1.1.1</monitor>
     </gateway_item>
   </gateways>
   <dnsmasq>
