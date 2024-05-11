@@ -470,7 +470,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -691,17 +691,17 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <poolopts/>
       <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
       <target>10.0.0.1</target>
-      <local-port>51820</local-port>
+      <local-port>51822</local-port>
       <source>
         <any>1</any>
       </source>
       <destination>
         <network>wanip</network>
-        <port>51820</port>
+        <port>51822</port>
       </destination>
       <updated>
-        <username>root@10.0.0.57</username>
-        <time>1708636845.0399</time>
+        <username>root@10.0.0.1</username>
+        <time>1715446541.6837</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -709,7 +709,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7039</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>udp</protocol>
@@ -1097,7 +1096,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>10.0.0.1</address>
-        <port>51820</port>
+        <port>51822</port>
       </destination>
       <descr>Wg Server Opnsense</descr>
       <category/>
@@ -1106,8 +1105,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1708606426.7038</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <log>1</log>
-      <disabled>1</disabled>
     </rule>
     <rule>
       <associated-rule-id>nat_66044b5e2f8393.51808440</associated-rule-id>
@@ -1320,8 +1317,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <description>/api/wireguard/server/setServer/7c3e9ada-bdd0-499c-8726-c38cca4e4e2f machte &#xC4;nderungen</description>
-    <time>1715446517.7267</time>
+    <time>1715446541.7825</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
