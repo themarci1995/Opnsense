@@ -1317,8 +1317,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <time>1715447540.5323</time>
-    <description>/interfaces.php made changes</description>
+    <description>/api/routes/routes/delroute/c8eb5f1b-edd7-420d-aac8-cdc5d956b672 machte &#xC4;nderungen</description>
+    <time>1715447790.0311</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2837,14 +2837,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route uuid="c8eb5f1b-edd7-420d-aac8-cdc5d956b672">
-      <network>172.16.0.0/24</network>
-      <gateway>CloudfirewallHetzner</gateway>
-      <descr/>
-      <disabled>0</disabled>
-    </route>
-  </staticroutes>
+  <staticroutes version="1.0.0"/>
   <bridges>
     <bridged/>
   </bridges>
