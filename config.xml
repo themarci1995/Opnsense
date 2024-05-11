@@ -1317,8 +1317,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <description>/api/wireguard/server/toggleServer/7c3e9ada-bdd0-499c-8726-c38cca4e4e2f machte &#xC4;nderungen</description>
-    <time>1715448848.2082</time>
+    <description>/api/wireguard/client/toggleClient/d01357d6-74b7-4a5f-b4bf-a2369cd426bf machte &#xC4;nderungen</description>
+    <time>1715448849.7642</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2769,7 +2769,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <client version="0.0.7">
         <clients>
           <client uuid="d01357d6-74b7-4a5f-b4bf-a2369cd426bf">
-            <enabled>0</enabled>
+            <enabled>1</enabled>
             <name>WGBridge</name>
             <pubkey>g7W19ml+KggXDJ1EW9Gd53nrigShK9omA3AqXnE1PR8=</pubkey>
             <psk>baA6wJHso66OlPaO7ZMH+rmlhQqOphpuOIkR4eD8eI8=</psk>
