@@ -537,7 +537,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </destination>
         <descr/>
         <category/>
-        <interface>opt3</interface>
+        <interface>opt1</interface>
         <tag/>
         <tagged/>
         <poolopts/>
@@ -553,7 +553,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <sourceport/>
         <updated>
           <username>root@10.0.0.125</username>
-          <time>1715454135.7129</time>
+          <time>1715454210.5523</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </updated>
       </rule>
@@ -1368,8 +1368,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.125</username>
-    <time>1715454146.5839</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1715454210.6544</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
