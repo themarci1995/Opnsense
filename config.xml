@@ -451,7 +451,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </lo0>
     <opt1>
       <if>wg1</if>
-      <descr>Hetzner</descr>
+      <descr>Wgbridge</descr>
       <enable>1</enable>
       <spoofmac/>
     </opt1>
@@ -470,7 +470,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -1316,9 +1316,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1715447471.0723</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.1</username>
+    <time>1715447540.5323</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
