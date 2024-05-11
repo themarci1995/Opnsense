@@ -1319,9 +1319,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.155</username>
-    <time>1715379497.4088</time>
-    <description>/system_general.php made changes</description>
+    <username>root@10.0.0.1</username>
+    <description>/api/wireguard/server/delServer/ba8fbae9-9b12-4eb8-bb99-7977955d78b0 machte &#xC4;nderungen</description>
+    <time>1715444207.2169</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2787,23 +2787,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <enabled>1</enabled>
       </general>
       <server version="0.0.4">
-        <servers>
-          <server uuid="ba8fbae9-9b12-4eb8-bb99-7977955d78b0">
-            <enabled>1</enabled>
-            <name>WGtowwgbridge</name>
-            <instance>1</instance>
-            <pubkey>+AFC/XV/C5lYpejEvVgrEi8uZdOLSCukGzCtrmYEHDc=</pubkey>
-            <privkey>0GVBWv/9ERdiLMj8NDSLO9LjCOFa4L7QocCpkQvOrUU=</privkey>
-            <port/>
-            <mtu/>
-            <dns/>
-            <tunneladdress/>
-            <disableroutes>0</disableroutes>
-            <gateway/>
-            <carp_depend_on/>
-            <peers/>
-          </server>
-        </servers>
+        <servers/>
       </server>
     </wireguard>
     <ntopng>
