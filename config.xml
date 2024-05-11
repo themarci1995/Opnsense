@@ -1317,8 +1317,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <time>1715446543.4082</time>
-    <description>/firewall_nat.php made changes</description>
+    <description>/api/wireguard/server/setServer/7c3e9ada-bdd0-499c-8726-c38cca4e4e2f machte &#xC4;nderungen</description>
+    <time>1715447427.155</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2789,8 +2789,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <enabled>1</enabled>
             <name>Wgbridge</name>
             <instance>1</instance>
-            <pubkey>48eEbZk+AiFwrspynbbYGMmNewsydrOkZVIN0hzpQw8=</pubkey>
-            <privkey>4FBelg2fvkd3HI5mgjujHkgJr+ZNlSCprZ4EBC12AEI=</privkey>
+            <pubkey>Iv+Rrma9VsrhaAI/YZ4afYezJ0S3joEqdZxtqNiYbmM=</pubkey>
+            <privkey>uIwqYIRHRmkf8JTx6b37mUPulEM5iUp2GIsgUlwtyWQ=</privkey>
             <port>51822</port>
             <mtu/>
             <dns/>
