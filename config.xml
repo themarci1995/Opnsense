@@ -1320,8 +1320,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.1</username>
-    <description>/api/wireguard/client/delClient/1ed1a4f7-f0df-4747-a342-4d457ec05180 machte &#xC4;nderungen</description>
-    <time>1715444211.5596</time>
+    <description>/api/wireguard/client/addClient/ machte &#xC4;nderungen</description>
+    <time>1715445242.2854</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2770,7 +2770,18 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </DynDNS>
     <wireguard>
       <client version="0.0.7">
-        <clients/>
+        <clients>
+          <client uuid="d01357d6-74b7-4a5f-b4bf-a2369cd426bf">
+            <enabled>1</enabled>
+            <name>WGBridge</name>
+            <pubkey>g7W19ml+KggXDJ1EW9Gd53nrigShK9omA3AqXnE1PR8=</pubkey>
+            <psk>WtRdvxRG17RrwgeIGPkM9VLzpQqjrqJyfaxNVD1xM1A=</psk>
+            <tunneladdress>0.0.0.0/0,::/0</tunneladdress>
+            <serveraddress>wgbridge.marcelheider.de</serveraddress>
+            <serverport>51820</serverport>
+            <keepalive>15</keepalive>
+          </client>
+        </clients>
       </client>
       <general version="0.0.1">
         <enabled>1</enabled>
