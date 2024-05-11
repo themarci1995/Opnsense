@@ -537,25 +537,25 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </destination>
         <descr/>
         <category/>
-        <interface>opt1</interface>
+        <interface>opt3</interface>
         <tag/>
         <tagged/>
         <poolopts/>
         <poolopts_sourcehashkey/>
         <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <updated>
-          <username>root@10.0.0.137</username>
-          <time>1715453137.2709</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
         <created>
           <username>root@10.0.0.137</username>
           <time>1715453137.2709</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <sourceport/>
+        <updated>
+          <username>root@10.0.0.125</username>
+          <time>1715454135.7129</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
       </rule>
       <rule>
         <source>
@@ -1368,8 +1368,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.125</username>
-    <time>1715453843.0156</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1715454135.8169</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
