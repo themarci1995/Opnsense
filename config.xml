@@ -943,6 +943,258 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </rule>
   </nat>
   <filter>
+    <rule uuid="06e84c97-9e4e-4f01-b72e-0499bc9515ac">
+      <associated-rule-id>nat_65ad37d31e1da7.01211754</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.137</address>
+        <port>80</port>
+      </destination>
+      <descr>Proxymanager 80</descr>
+      <category/>
+      <created>
+        <username>root@10.0.0.163</username>
+        <time>1705850835.1234</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="657d38f0-6138-4a4d-ae51-84f498964fe7">
+      <associated-rule-id>nat_65ad39b3b5f257.71150464</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.137</address>
+        <port>81</port>
+      </destination>
+      <descr>Proxymanager 81</descr>
+      <category/>
+      <created>
+        <username>root@10.0.0.163</username>
+        <time>1705851315.7453</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="a3e17511-7695-4170-b8b9-5917e4d3b827">
+      <associated-rule-id>nat_65ad39c6246e76.33547085</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.137</address>
+        <port>443</port>
+      </destination>
+      <descr>Proxymanager 443</descr>
+      <category/>
+      <created>
+        <username>root@10.0.0.163</username>
+        <time>1705851334.1492</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="f0954bfb-f4e6-435c-ae99-bf63876e4c3b">
+      <associated-rule-id>nat_65d722be369154.07474047</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.125</address>
+        <port>1194</port>
+      </destination>
+      <descr>OVPN GL-A1300</descr>
+      <category/>
+      <created>
+        <username>root@10.0.0.57</username>
+        <time>1708597950.2235</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="e8b98673-a6cf-4990-9e52-58570ee15030">
+      <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.1</address>
+        <port>51822</port>
+      </destination>
+      <descr>Wg Server Opnsense</descr>
+      <category/>
+      <created>
+        <username>root@10.0.0.192</username>
+        <time>1708606426.7038</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="04642763-a6c0-400a-9c40-56fc0688b7fa">
+      <associated-rule-id>nat_66044b5e2f8393.51808440</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>25</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557470.1946</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="79d81705-2eae-470a-afa6-047e72499238">
+      <associated-rule-id>nat_66044bb894dcd8.27957950</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>465</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557560.6098</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="bccad039-7b55-4780-8124-75e2d44bd592">
+      <associated-rule-id>nat_66044bcd76c012.48493516</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>587</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557581.4864</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="0ace5f1a-96c3-44b4-b283-aa840a72ddb1">
+      <associated-rule-id>nat_66044bea8db5d1.23090255</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>143</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557610.5805</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="7c59ae4b-be06-4ff2-a104-6a132a985027">
+      <associated-rule-id>nat_66044bfd6e6696.73567408</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>110</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557629.4522</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="b938ab1c-7167-4e28-be8d-6548129098ca">
+      <associated-rule-id>nat_66044c0c07d957.62288062</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>995</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557644.0322</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="49aad855-cbeb-481e-a368-dd07deb812ce">
+      <associated-rule-id>nat_66044c225dbb62.43821815</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.0.0.126</address>
+        <port>4190</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.0.0.1</username>
+        <time>1711557666.3839</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="306ca0e7-fb04-4577-9e41-54e801366203">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -992,256 +1244,28 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <associated-rule-id>nat_65ad37d31e1da7.01211754</associated-rule-id>
+    <rule uuid="27a516fc-78e0-4710-ba2a-426afbe00f96">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
       <source>
         <any>1</any>
       </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>10.0.0.137</address>
-        <port>80</port>
-      </destination>
-      <descr>Proxymanager 80</descr>
-      <category/>
-      <created>
-        <username>root@10.0.0.163</username>
-        <time>1705850835.1234</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_65ad39b3b5f257.71150464</associated-rule-id>
-      <source>
         <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.137</address>
-        <port>81</port>
       </destination>
-      <descr>Proxymanager 81</descr>
-      <category/>
+      <updated>
+        <username>root@10.0.0.137</username>
+        <time>1715452688.1757</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
       <created>
-        <username>root@10.0.0.163</username>
-        <time>1705851315.7453</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_65ad39c6246e76.33547085</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.137</address>
-        <port>443</port>
-      </destination>
-      <descr>Proxymanager 443</descr>
-      <category/>
-      <created>
-        <username>root@10.0.0.163</username>
-        <time>1705851334.1492</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_65d722be369154.07474047</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.125</address>
-        <port>1194</port>
-      </destination>
-      <descr>OVPN GL-A1300</descr>
-      <category/>
-      <created>
-        <username>root@10.0.0.57</username>
-        <time>1708597950.2235</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_65d743daabcf56.28851927</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.1</address>
-        <port>51822</port>
-      </destination>
-      <descr>Wg Server Opnsense</descr>
-      <category/>
-      <created>
-        <username>root@10.0.0.192</username>
-        <time>1708606426.7038</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66044b5e2f8393.51808440</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.126</address>
-        <port>25</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.0.0.1</username>
-        <time>1711557470.1946</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66044bb894dcd8.27957950</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.126</address>
-        <port>465</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.0.0.1</username>
-        <time>1711557560.6098</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66044bcd76c012.48493516</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.126</address>
-        <port>587</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.0.0.1</username>
-        <time>1711557581.4864</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66044bea8db5d1.23090255</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.126</address>
-        <port>143</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.0.0.1</username>
-        <time>1711557610.5805</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66044bfd6e6696.73567408</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.126</address>
-        <port>110</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.0.0.1</username>
-        <time>1711557629.4522</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66044c0c07d957.62288062</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.126</address>
-        <port>995</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.0.0.1</username>
-        <time>1711557644.0322</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <associated-rule-id>nat_66044c225dbb62.43821815</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.0.0.126</address>
-        <port>4190</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.0.0.1</username>
-        <time>1711557666.3839</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <username>root@10.0.0.137</username>
+        <time>1715452688.1757</time>
+        <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
@@ -1308,8 +1332,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <description>/api/unbound/settings/set machte &#xC4;nderungen</description>
-    <time>1715452012.2905</time>
+    <time>1715452688.2736</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
