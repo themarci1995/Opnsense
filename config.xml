@@ -1307,9 +1307,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1715448010.6179</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.125</username>
+    <time>1715448071.8729</time>
+    <description>/system_gateways_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2918,6 +2918,18 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <latencyhigh>1000</latencyhigh>
       <losslow>60</losslow>
       <losshigh>100</losshigh>
+    </gateway_item>
+    <gateway_item>
+      <interface>opt1</interface>
+      <gateway>dynamic</gateway>
+      <name>WgBridge</name>
+      <priority>255</priority>
+      <weight>1</weight>
+      <ipprotocol>inet</ipprotocol>
+      <interval/>
+      <descr/>
+      <monitor_disable>1</monitor_disable>
+      <monitor_noroute>1</monitor_noroute>
     </gateway_item>
   </gateways>
   <dnsmasq>
