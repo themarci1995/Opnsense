@@ -533,37 +533,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <network>any</network>
         </source>
         <destination>
-          <network>(self)</network>
-        </destination>
-        <descr/>
-        <category/>
-        <interface>wan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet6</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport>51820</sourceport>
-        <dstport>51820</dstport>
-        <protocol>udp</protocol>
-        <updated>
-          <username>root@10.0.0.137</username>
-          <time>1709725956.1731</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@10.0.0.137</username>
-          <time>1709725956.1731</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-      </rule>
-      <rule>
-        <source>
-          <network>any</network>
-        </source>
-        <destination>
           <any>1</any>
         </destination>
         <descr/>
@@ -1398,8 +1367,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.1</username>
-    <time>1715453510.5123</time>
+    <username>root@10.0.0.125</username>
+    <time>1715453841.8502</time>
     <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
