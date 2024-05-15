@@ -1368,8 +1368,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1715799254.73</time>
-    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
+    <time>1715799256.4229</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
