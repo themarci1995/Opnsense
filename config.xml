@@ -1362,7 +1362,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <sequence>system_information-container:00000000-col4:show,thermal_sensors-container:00000001-col4:show,zenarmor-container:00000002-col4:show,system_log-container:00000003-col4:show,log-container:00000004-col4:show,services_status-container:00000005-col5:show,ipcheck-container:00000006-col5:show,interface_list-container:00000007-col6:show,gateways-container:00000008-col6:show,interface_statistics-container:00000009-col6:show,traffic_graphs-container:00000010-col6:show,wireguard-container:00000011-col6:show</sequence>
     <column_count>3</column_count>
     <ipcheckfilter>address,isp,vpn,risk</ipcheckfilter>
-    <gatewaysfilter>WAN_DHCP6,WAN_DHCP,CloudfirewallHetzner</gatewaysfilter>
+    <gatewaysfilter>WAN_DHCP6,WAN_DHCP,WgBridge</gatewaysfilter>
     <gatewaysinvert>1</gatewaysinvert>
     <traffic_graphs_interfaces>lan,opt3,wan,opt1</traffic_graphs_interfaces>
     <filterlogentries>20</filterlogentries>
@@ -1371,8 +1371,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1715801717.7378</time>
-    <description>/system_gateways_edit.php made changes</description>
+    <time>1715801738.5722</time>
+    <description>Saved Gateways Filter via Dashboard</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
