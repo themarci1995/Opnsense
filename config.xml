@@ -556,6 +556,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <time>1715454210.5523</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </updated>
+        <disabled>1</disabled>
       </rule>
       <rule>
         <source>
@@ -1368,8 +1369,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1715799557.0051</time>
-    <description>Saved Widget Interface List via Dashboard</description>
+    <time>1715799592.078</time>
+    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
