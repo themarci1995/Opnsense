@@ -1361,8 +1361,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <description>/api/wireguard/server/delServer/7c3e9ada-bdd0-499c-8726-c38cca4e4e2f machte &#xC4;nderungen</description>
-    <time>1715798663.2504</time>
+    <description>/api/wireguard/client/setClient/d01357d6-74b7-4a5f-b4bf-a2369cd426bf machte &#xC4;nderungen</description>
+    <time>1715798746.134</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2815,8 +2815,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <client uuid="d01357d6-74b7-4a5f-b4bf-a2369cd426bf">
             <enabled>1</enabled>
             <name>WGBridge</name>
-            <pubkey>g7W19ml+KggXDJ1EW9Gd53nrigShK9omA3AqXnE1PR8=</pubkey>
-            <psk>baA6wJHso66OlPaO7ZMH+rmlhQqOphpuOIkR4eD8eI8=</psk>
+            <pubkey>PKOyI1y6hwCiBfIfzSxERtIlhapEsVW9YGgrCJ3rolU=</pubkey>
+            <psk>6MXFvcnYHMDLHyqOlXxyvSXxRq2aAouz7CMrYAZjUcg=</psk>
             <tunneladdress>0.0.0.0/0,::/0</tunneladdress>
             <serveraddress>wgbridge.marcelheider.de</serveraddress>
             <serverport>51820</serverport>
