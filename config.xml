@@ -619,7 +619,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan,opt1</interface>
+      <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
       <descr>Proxymanager 81</descr>
@@ -638,7 +638,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </destination>
       <updated>
         <username>root@10.0.0.137</username>
-        <time>1715801262.6714</time>
+        <time>1715801322.2928</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1005,7 +1005,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <source>
         <any>1</any>
       </source>
-      <interface>wan,opt1</interface>
+      <interface>wan</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
@@ -1020,8 +1020,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <time>1705851315.7453</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <floating>1</floating>
-      <quick>yes</quick>
     </rule>
     <rule uuid="a3e17511-7695-4170-b8b9-5917e4d3b827">
       <associated-rule-id>nat_65ad39c6246e76.33547085</associated-rule-id>
@@ -1373,8 +1371,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1715801264.653</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1715801322.3931</time>
+    <description>/firewall_nat_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
