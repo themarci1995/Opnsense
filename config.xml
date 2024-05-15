@@ -468,6 +468,15 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <lock>1</lock>
       <spoofmac/>
     </opt2>
+    <wireguard>
+      <internal_dynamic>1</internal_dynamic>
+      <descr>WireGuard (Group)</descr>
+      <if>wireguard</if>
+      <virtual>1</virtual>
+      <enable>1</enable>
+      <type>group</type>
+      <networks/>
+    </wireguard>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1360,9 +1369,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>lan,opt3,wan,opt1</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>root@10.0.0.1</username>
-    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
-    <time>1715799676.8776</time>
+    <username>(root)</username>
+    <time>1715799677.1669</time>
+    <description>Updated plugin interface configuration</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
