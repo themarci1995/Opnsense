@@ -1361,8 +1361,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <description>/api/wireguard/client/setClient/d01357d6-74b7-4a5f-b4bf-a2369cd426bf machte &#xC4;nderungen</description>
-    <time>1715798746.134</time>
+    <description>/api/wireguard/server/addServer/ machte &#xC4;nderungen</description>
+    <time>1715799009.415</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2828,7 +2828,23 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <enabled>0</enabled>
       </general>
       <server version="0.0.4">
-        <servers/>
+        <servers>
+          <server uuid="d5b64ac1-3811-4789-abdb-7124d108a349">
+            <enabled>1</enabled>
+            <name>WGBridge</name>
+            <instance>1</instance>
+            <pubkey>PKOyI1y6hwCiBfIfzSxERtIlhapEsVW9YGgrCJ3rolU=</pubkey>
+            <privkey>aFA5y/gMxh6DdT5eIUKJGFPP0T6zsjdZhHhvfMuLh2c=</privkey>
+            <port>51822</port>
+            <mtu/>
+            <dns/>
+            <tunneladdress>172.30.0.2/32,2a01:4f8:c0c:f0d3:ac1e::2/128</tunneladdress>
+            <disableroutes>0</disableroutes>
+            <gateway/>
+            <carp_depend_on/>
+            <peers/>
+          </server>
+        </servers>
       </server>
     </wireguard>
     <ntopng>
