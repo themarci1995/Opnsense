@@ -1371,8 +1371,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1715801324.0184</time>
-    <description>/firewall_nat.php made changes</description>
+    <time>1715801717.7378</time>
+    <description>/system_gateways_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2989,10 +2989,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <priority>255</priority>
       <weight>1</weight>
       <ipprotocol>inet</ipprotocol>
-      <interval/>
       <descr/>
-      <monitor_disable>1</monitor_disable>
       <monitor_noroute>1</monitor_noroute>
+      <monitor>1.1.1.1</monitor>
     </gateway_item>
   </gateways>
   <dnsmasq>
