@@ -1359,8 +1359,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <description>/api/wireguard/client/setClient/d01357d6-74b7-4a5f-b4bf-a2369cd426bf machte &#xC4;nderungen</description>
-    <time>1715799436.4262</time>
+    <description>/api/wireguard/server/setServer/d5b64ac1-3811-4789-abdb-7124d108a349 machte &#xC4;nderungen</description>
+    <time>1715799460.5804</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
