@@ -1360,9 +1360,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <traffic_graphs_interfaces>lan,opt3,wan,opt1</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1715799786.4606</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.137</username>
+    <description>/api/wireguard/server/setServer/d5b64ac1-3811-4789-abdb-7124d108a349 machte &#xC4;nderungen</description>
+    <time>1715800576.1445</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2836,8 +2836,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
             <pubkey>PKOyI1y6hwCiBfIfzSxERtIlhapEsVW9YGgrCJ3rolU=</pubkey>
             <privkey>aFA5y/gMxh6DdT5eIUKJGFPP0T6zsjdZhHhvfMuLh2c=</privkey>
             <port>51822</port>
-            <mtu/>
-            <dns/>
+            <mtu>9000</mtu>
+            <dns>9.9.9.9</dns>
             <tunneladdress>172.30.0.2/32,2a01:4f8:c0c:f0d3:ac1e::2/128</tunneladdress>
             <disableroutes>0</disableroutes>
             <gateway/>
