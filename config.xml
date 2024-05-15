@@ -1365,11 +1365,14 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <gatewaysfilter>WAN_DHCP6,WAN_DHCP,CloudfirewallHetzner</gatewaysfilter>
     <gatewaysinvert>1</gatewaysinvert>
     <traffic_graphs_interfaces>lan,opt3,wan,opt1</traffic_graphs_interfaces>
+    <filterlogentries>20</filterlogentries>
+    <filterlogentriesupdateinterval>2</filterlogentriesupdateinterval>
+    <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1715800882.5061</time>
-    <description>Widget configuration has been changed</description>
+    <time>1715800921.3929</time>
+    <description>Saved Filter Log Entries via Dashboard</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
