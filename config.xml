@@ -470,7 +470,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </opt2>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
-      <descr>WireGuard (Group)</descr>
+      <descr>WireGuard (Gruppe)</descr>
       <if>wireguard</if>
       <virtual>1</virtual>
       <enable>1</enable>
@@ -1364,12 +1364,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <ipcheckfilter>address,isp,vpn,risk</ipcheckfilter>
     <gatewaysfilter>WAN_DHCP6,WAN_DHCP,CloudfirewallHetzner</gatewaysfilter>
     <gatewaysinvert>1</gatewaysinvert>
-    <traffic_graphs_interfaces>opt1,lan,opt3,wan,opt2</traffic_graphs_interfaces>
+    <traffic_graphs_interfaces>lan,opt3,wan,opt1</traffic_graphs_interfaces>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1715799465.0661</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.137</username>
+    <time>1715799557.0051</time>
+    <description>Saved Widget Interface List via Dashboard</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
