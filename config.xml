@@ -586,6 +586,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <time>1715454328.1574</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </updated>
+        <disabled>1</disabled>
       </rule>
     </outbound>
     <rule>
@@ -1369,7 +1370,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.137</username>
-    <time>1715799592.078</time>
+    <time>1715799593.7084</time>
     <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
