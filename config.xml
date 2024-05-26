@@ -1370,9 +1370,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1716746404.4733</time>
-    <description>Updated plugin interface configuration</description>
+    <username>root@10.0.0.57</username>
+    <description>/api/wireguard/general/set machte &#xC4;nderungen</description>
+    <time>1716746575.5653</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2835,7 +2835,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </clients>
       </client>
       <general version="0.0.1">
-        <enabled>1</enabled>
+        <enabled>0</enabled>
       </general>
       <server version="0.0.4">
         <servers>
