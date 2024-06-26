@@ -1363,8 +1363,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1719400240.986</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1719400273.4104</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1444,6 +1444,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <Category version="1.0.0">
         <categories/>
       </Category>
+      <Filter version="1.0.3">
+        <rules/>
+        <snatrules/>
+        <npt/>
+      </Filter>
     </Firewall>
     <Netflow version="1.0.1">
       <capture>
@@ -1488,7 +1493,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </IDS>
     <Interfaces>
       <loopbacks version="1.0.0"/>
-      <vxlans version="1.0.1"/>
+      <vxlans version="1.0.2"/>
+      <neighbors version="1.0.0"/>
     </Interfaces>
     <monit version="1.0.12">
       <general>
@@ -1912,7 +1918,80 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </domain>
       </domains>
     </unboundplus>
-    <Gateways version="0.0.1"/>
+    <Gateways version="1.0.0">
+      <gateway_item uuid="5a3b29d2-0970-4065-b584-d8590d82aa05">
+        <disabled>0</disabled>
+        <name>WAN_DHCP</name>
+        <descr>Interface WAN_DHCP Gateway</descr>
+        <interface>wan</interface>
+        <ipprotocol>inet</ipprotocol>
+        <gateway/>
+        <defaultgw>0</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>0</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor>9.9.9.9</monitor>
+        <force_down>0</force_down>
+        <priority>254</priority>
+        <weight>1</weight>
+        <latencylow>500</latencylow>
+        <latencyhigh>1000</latencyhigh>
+        <losslow>60</losslow>
+        <losshigh>100</losshigh>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+      <gateway_item uuid="712a8b1f-14ff-4a3c-b6e8-d81850bc9d81">
+        <disabled>0</disabled>
+        <name>WAN_DHCP6</name>
+        <descr>Interface WAN_DHCP6 Gateway</descr>
+        <interface>wan</interface>
+        <ipprotocol>inet6</ipprotocol>
+        <gateway/>
+        <defaultgw>0</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>0</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor>2620:fe::fe</monitor>
+        <force_down>0</force_down>
+        <priority>254</priority>
+        <weight>1</weight>
+        <latencylow>500</latencylow>
+        <latencyhigh>1000</latencyhigh>
+        <losslow>60</losslow>
+        <losshigh>100</losshigh>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+      <gateway_item uuid="965c3094-b8d9-4da4-a8d0-f36bcdf8dcca">
+        <disabled>0</disabled>
+        <name>WgBridge</name>
+        <descr/>
+        <interface>opt1</interface>
+        <ipprotocol>inet</ipprotocol>
+        <gateway/>
+        <defaultgw>0</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>0</monitor_disable>
+        <monitor_noroute>1</monitor_noroute>
+        <monitor>1.1.1.1</monitor>
+        <force_down>0</force_down>
+        <priority>255</priority>
+        <weight>1</weight>
+        <latencylow/>
+        <latencyhigh/>
+        <losslow/>
+        <losshigh/>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+    </Gateways>
     <NodeExporter version="0.2.0">
       <enabled>1</enabled>
       <listenaddress>0.0.0.0</listenaddress>
@@ -2875,6 +2954,29 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </network>
       </networks>
     </zerotier>
+    <Kea>
+      <dhcp4 version="0.0.1">
+        <general>
+          <enabled>0</enabled>
+          <interfaces/>
+          <valid_lifetime>4000</valid_lifetime>
+        </general>
+        <ha>
+          <enabled>0</enabled>
+          <this_server_name/>
+        </ha>
+        <subnets/>
+        <reservations/>
+        <ha_peers/>
+      </dhcp4>
+      <ctrl_agent version="0.0.1">
+        <general>
+          <enabled>0</enabled>
+          <http_host>127.0.0.1</http_host>
+          <http_port>8000</http_port>
+        </general>
+      </ctrl_agent>
+    </Kea>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0"/>
@@ -2950,45 +3052,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <prv>LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlKS1FJQkFBS0NBZ0VBMGxHWFJVK0VFUFdOaFB2cnVZaHBKeVk2VlVjUlc3NTFMNi93SlVjektsVldHVVJzCnZVaEVzQzJJL0ZrUjJ1NVh3b2c1aDdIa2RXYkhmVDZZUTZ2UU5XemVFdEdwY0l0OEk2UkZTVEhVbm1FRjhaeVIKZ01oem1vdWdjclJEd3krUWYwdm9VcVZBYVZIQ3NKS2lRcWFtNDN3Vks2cHhCNkVteWJXZVd5TEZhTSsvajVNQgpzUEhORkk3Y2YvMzZmY1p1OFF0WHd5SjZmd28zTGVtODlML1plcGlvbUozNGlpVFBqQ1pscllTeUlKYTRCTlRqCmNrRXlLbXFUTC93SllxeXgxeE5tbWZiclU3NVA3Mmh1ak8xUmhyazRsdFVESklFamY4QXc3K0pmdm1mUHR6UXoKY1d6Y3AxSldKSGdQN0Zpd2ltWTdnVzZ2WkhxSTE2WFVvRC9TNkJBRHVtUkk3eWRNVVJGY3lmcVNyTzhEdGxYRAorRGNaTU1ZaU5scnN0UU1qS24wQ1g1TWpKTUF6TTdUWndEazk4TnpwSjRYOXViSWNmUkxXcW9BMnR6QjlrVjlHCk9HR0pNdXNzL0FlSjUzZGxjbmN1S0ZtSE9DRjlSYjUyMGpMRWJVdjVhaVhTOTYyYjdqRCs3UEo3RTVJSSthWHQKQlU0dHpmSDdkUkExWDc2R0VEWWhzc2lvVlF5cVk2aUlhSXB0S1hjTFRaWlN5aVJoTVdIOUhNMTdRT0xuaVRaNgpHdlZpSUJ5TFUxdHRaNmpndHRJNVlqL1JKWVl3Q2FReUllVWVjNnh2NFZyNHFRL1JNU3BmaWtDajR3NU5rUy9TCnUwcFJRNElUOW1rZ1VuVHRyZXZ0QWd6WjNPOXRiREU3SFFNMFdqWCtXNVlmaThYdldPeDZORlEzUFpzQ0F3RUEKQVFLQ0FnRUFpRzVYRTZZV1JLNFZaSXZMQ1NxOUU2RlB1OXdESGFGNkFUby9MTjk0Q0dFZEhmenVFUWRkVDIvcQphZEFacmd4b3I0K1F5ajZTdGJtN2RMcHpLWXE5NExwRGdLK3pHNGZRT29xb1MyZmd4ZkNvVzJnMlZ2VXhVTEo4Cm5ZdmtYU3h3cnJMOS9RYW50dXBMd2lFTTB2R3FWdTA2Q241aEhoTGl4M3hpUWpwWEZydVZSenlVbjBUcnhRYzcKY0dlLzQzRWlySWl3SUt3d0RGTURJbXg2bjhZSC9PZ2tqZ1FEb3hGbjlVRS9PZ1ZYUzU2WnRzQ20zb24rVWRlYQpyVWp3aWFyL0hrYStpdWZMRmlMaFZhdEg4M0ZMTG5yZWc3R2dmVUNzVjRYRCtRaS9GUlBnZ2JhQ0hIVUMyaU9tCkw3Z1dsRG1nSTlkWGlJblZpdmVWNTFYeWpSVjU2TlFhVEtmdjI1MXM3a2o5bGY4NjFRK0podDRNQUl4MVBzeDEKWFdpZWxxOXBpM05vdzFNSWxNUDBPSTI1Q0ttbUw0dmt5NTN6anNaQlE3S1Y4WHlnNlpxWDVzZDVQMWhTMDZpWApaZFVmaXdoZEJJS2NlNUg0d2pHU285aEJ1TW9ybjZKL0UvNVVxaTRablIvTW5PK3JackJmajVVZ0tWalZiN2VtCjNuaWxXUWZ1aDZ2MDhZWU9pRFltMDJ3MzZXV2w0Yit5emhNMW90N0lBSFhPZVlHTzMyNGNmWFNCZU81eG9TbFgKdUFxc3E2TEhwdVZ1eUx1Q21KdnFMbmJJbFljUnMrTm1WRVB1V0QwOXpsbG1tcS9nZUhFWFNwT3JqejZOYkNNWgp1RWc1QmFmN1ZreFFJTHJndElFV0lpRHFkRUZOQzgwazlFcTRhWkRZcjRwQVp0eXQ0L0VDZ2dFQkFQamRmbHVDCjZ5Z1ZIdGl5cTNoRk9qa0w2eEtqRHhzZmxQekF2cHZyeEpKSU50RnRXa203N1lVeEFhNzd1bll2aUh4WVNKb0cKK1JBRTR5YWdqa3BWbGNUZnVKQjVTY0ZjQ3lqNnlkdWlYQVJZMGx4MnllZUljY1lORGhjY2VIWkpzUkFYaVZXZQpqejkvTk9QRitid1FzTjBCMUZiRCtkMzV1LzZCZkJLcnpSRlUrdWhXd3lJdnUzU0pTVUVZOUNOSllJZUZ2MDlFCkRPdlRRMzcycFhDcWNZbHlxWGV3bUN5dzZEZ3ZhaHJYT0xBdFN4eFAwdnQwOVRZeUU4bUJVTE0rYUtIUDVrZHgKOGhVekhEMDJKYUJuU3FQT0w0VFVWOWZaMjAzb0FmbjlSc2pOMHVQMlRyaE80RVZOa1Z3dTVpa2luNlJsS1JSYwpjNnNCdEJFODE0Y3k1amtDZ2dFQkFOaFpNUVRwRnEvQms0aEVHQU5BZ1hlK0NCSmd0TzlDWEd3VjgxanNqZEZRCnVBTi9XYWJjUDVwN2hmaTYvZld4alZnSDl2TWxqZjk0WTF4d2tYeER0MW53bk4yZEcrWTV3OHZKelN3dzljK2cKWGtjS3ZuNlhNZDNML2MzU2MrdFFTaUpldzlpMW15NnN5cFpocTVoTlZiVXFOMkJNc2owemRXZWMrMkpJQkV4TwpNRHhuaHZnaGdDd3ZMelZ0NURFd2x6UjlvM3hob0krcU43blV6ejRzenpMeE93RURuSXVVcnhYaDBiRnR4U002CjlYWlRRMnFFZjBjZUNSNHJYK3hHYmgyZlBmdFBNWnRybmM5bkhXWUVvTDJaTmVXQyt3TW9WUVdGeGFKSWhPL2sKZmZybWF1aEoxZ1pPZmRJbzZhQUszcFZUeTNLWjdCS3pmd2paS3IzNFluTUNnZ0VCQUtkbHZaL3FrU2syQTdpNQpmaE41WlcrSDc4aHFmRGUvWjZVWU5WNkdHWVJZSk45OFVmWTAvZERRcFJSQjZTdWtUNGRzanZGa2JWWDBJNk1RCjdvVmJ5bEZTTjBDZkJSaVdSRDk5YWhoZHZzMkJ2WVpLdFFjVHhZdjFyaHVubi9QWkg4djJPUCtwbHl1YjhrU2cKSDVyOEV5dW1GbUdDazJsWG1iZlkrMDlIMXJtbzB0bER1eUFjd1ZmakhLNDREY2hLakM2OHJYR3hFWXZ6WUh4ZgpoZXNpQ3hyc1VNZmN0bytoTTZMUGFlekNCalNqVXRtcGEvNk9ybjZVOHJCaFZwb3JDWkNHV3B5R0xkTkt2TjBECnRnMk9UU3VmL21DM3dKckZ4UGxEYlVqdHNCWlVORjM0aVB6NnVXcUVnWmxqUnBnMjNQRmt4bHdXMEFzZ0t6SkoKSGFTb2ZTa0NnZ0VBVFZmTmEyajh3RVpldkxkRE1sNXNLbWVZTVNHN2JWRjNBdmp4N3hkYU43czRuWjk0YUd1UwpuV0tOYVhkSDlQN05mZXdTLzZlc1ZPa3Y5RXNWNTZ1NXI0Q1NRN08zMXAxTi90dWM2ckJ5SUJDL3czdjIwQUN6ClJneDRKbzJXL1VmTnlPM0I3QVk0ZlA0dXlvWU9OenRtYVlhM0Ywa3o2eWNyVUtoUlFqaG11UFMyejlGZThmUGcKQTJ1MjM4M3laeGRzNXNvSG1SNjVyTUo0ZTRtMXNRK0ozemRZRmF1NTJqaUVRemxnb3FLUWVHREtnY3VRYlZNQwp3V1RlYzVla0NpNi9qUDF4eGhid3NCUlA3V1o2bnc4R2UrRjY0QnJzSzV2T2tWUGFiSUtxYTZ4dTBUUndnYXhyCnhBTnBmYWs4cEFkZXZWbWdnTTdBRTR0eDNiTHRVYzZyT3dLQ0FRQlNPcndDM1RYS1pKdTQ2RmZTVVF4NnMxOXEKbzltTXBJYnd4Q050clFoNHFHTUJxVDFpQ2R5bWVQWmlDZk1uQlNOemRMTnF1YUFIS2tJY2twTzFFdm5tUlg4cgorVUFFS0xFYUpSSUxnNklHODZiZU1wcVRaWFZvcVZNeXdUUTJ2SmlEZmpNbHU1elQ4NmkzUUxvYi8vaklvN0xxCkF3NG9vUWRSQTdPaml1NnF0MG9iNUxJcjZUanhoQTMzSUNSeTJFWjFPMDVaZ1JaQm5PRUQ1b1pCaTVvS1NrUnAKeExMU3Y2TEZzNy9CUkk2c29WWHFEZjlHT3dWVnBDZVZjN2V1UFl1WnByTmk3VnY0Q001bEo2Z2xMbGZicDd2UgpaZXFXRVFlUjA4SVpFREFBanJDd3BSaUNzeFhQQ01Wb2RzZklGRWY4dnJvd3hCY21GcTJ4cGtJb1hWSkMKLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0K</prv>
   </cert>
   <gateways>
-    <gateway_item>
-      <interface>wan</interface>
-      <gateway>dynamic</gateway>
-      <name>WAN_DHCP</name>
-      <priority>254</priority>
-      <weight>1</weight>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Interface WAN_DHCP Gateway</descr>
-      <monitor>9.9.9.9</monitor>
-      <latencylow>500</latencylow>
-      <latencyhigh>1000</latencyhigh>
-      <losslow>60</losslow>
-      <losshigh>100</losshigh>
-    </gateway_item>
-    <gateway_item>
-      <interface>wan</interface>
-      <gateway>dynamic</gateway>
-      <name>WAN_DHCP6</name>
-      <priority>254</priority>
-      <weight>1</weight>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Interface WAN_DHCP6 Gateway</descr>
-      <monitor>2620:fe::fe</monitor>
-      <latencylow>500</latencylow>
-      <latencyhigh>1000</latencyhigh>
-      <losslow>60</losslow>
-      <losshigh>100</losshigh>
-    </gateway_item>
-    <gateway_item>
-      <interface>opt1</interface>
-      <gateway>dynamic</gateway>
-      <name>WgBridge</name>
-      <priority>255</priority>
-      <weight>1</weight>
-      <ipprotocol>inet</ipprotocol>
-      <descr/>
-      <monitor_noroute>1</monitor_noroute>
-      <monitor>1.1.1.1</monitor>
-    </gateway_item>
+    
+    
+    
   </gateways>
   <dnsmasq>
     <regdhcp>1</regdhcp>
