@@ -1362,9 +1362,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>root@10.0.0.162</username>
-    <description>/api/core/firmware/set machte &#xC4;nderungen</description>
-    <time>1719400062.0708</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1719400157.0394</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
