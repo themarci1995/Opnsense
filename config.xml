@@ -1364,7 +1364,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1719400216.9729</time>
+    <time>1719400230.7994</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2619,6 +2619,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <User/>
           <Pass>b64:</Pass>
           <Version/>
+          <FullVersion/>
           <Remote>false</Remote>
           <Prefix>zenarmor_0000000000_64781189-d156-4af6-b130-46d9325f3a24_</Prefix>
           <ClusterUUID/>
@@ -2709,6 +2710,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <enabled>true</enabled>
         <seed>0</seed>
       </communityid>
+      <intrusiondetection>
+        <enabled>true</enabled>
+      </intrusiondetection>
       <streamReportConfig>
         <enabled>false</enabled>
         <server/>
