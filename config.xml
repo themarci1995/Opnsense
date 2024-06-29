@@ -1362,9 +1362,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1719439251.3214</time>
+    <username>root@10.0.0.119</username>
+    <description>/api/kea/ctrl_agent/set machte &#xC4;nderungen</description>
+    <time>1719658979.2484</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2971,7 +2971,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </dhcp4>
       <ctrl_agent version="0.0.1">
         <general>
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <http_host>127.0.0.1</http_host>
           <http_port>8000</http_port>
         </general>
