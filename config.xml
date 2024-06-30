@@ -1364,7 +1364,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/unbound/settings/addDomainOverride/ machte &#xC4;nderungen</description>
-    <time>1719754913.7437</time>
+    <time>1719755092.3741</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1947,6 +1947,13 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <enabled>1</enabled>
           <domain>pve.marcelheider.local</domain>
           <server>10.0.3.255@8006</server>
+          <forward_tcp_upstream>0</forward_tcp_upstream>
+          <description/>
+        </domain>
+        <domain uuid="6031ce09-ddea-484a-a7d5-008684ec9aac">
+          <enabled>1</enabled>
+          <domain>portainer.marcelheider.local</domain>
+          <server>10.0.0.137@9443</server>
           <forward_tcp_upstream>0</forward_tcp_upstream>
           <description/>
         </domain>
