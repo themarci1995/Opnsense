@@ -1363,8 +1363,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1719740704.742</time>
-    <description>Widget configuration has been changed</description>
+    <description>/api/unbound/settings/addHostOverride/ machte &#xC4;nderungen</description>
+    <time>1719754082.8179</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1904,6 +1904,16 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <mxprio/>
           <mx/>
           <server>10.0.3.255</server>
+          <description/>
+        </host>
+        <host uuid="08d1eb6b-c7b6-4635-8404-eacb575d4876">
+          <enabled>1</enabled>
+          <hostname>rss</hostname>
+          <domain>marcelheider.local</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <server>10.0.0.92</server>
           <description/>
         </host>
       </hosts>
