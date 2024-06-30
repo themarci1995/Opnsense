@@ -1364,7 +1364,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/unbound/settings/toggleHostOverride/08d1eb6b-c7b6-4635-8404-eacb575d4876 machte &#xC4;nderungen</description>
-    <time>1719754415.7223</time>
+    <time>1719754416.5139</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1907,7 +1907,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <description/>
         </host>
         <host uuid="08d1eb6b-c7b6-4635-8404-eacb575d4876">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <hostname>rss</hostname>
           <domain>marcelheider.local</domain>
           <rr>A</rr>
