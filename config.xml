@@ -1363,8 +1363,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/unbound/settings/toggleDomainOverride/bb040e04-74be-4418-b6c0-5318f498e30c machte &#xC4;nderungen</description>
-    <time>1719764801.2183</time>
+    <description>/api/unbound/settings/set machte &#xC4;nderungen</description>
+    <time>1720083810.476</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1815,7 +1815,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <stats>1</stats>
         <active_interface/>
         <dnssec>1</dnssec>
-        <dns64>0</dns64>
+        <dns64>1</dns64>
         <dns64prefix>64:ff9b::/96</dns64prefix>
         <noarecords>0</noarecords>
         <regdhcp>1</regdhcp>
@@ -1823,11 +1823,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <regdhcpstatic>1</regdhcpstatic>
         <noreglladdr6>0</noreglladdr6>
         <noregrecords>0</noregrecords>
-        <txtsupport>0</txtsupport>
+        <txtsupport>1</txtsupport>
         <cacheflush>0</cacheflush>
         <local_zone_type>transparent</local_zone_type>
         <outgoing_interface/>
-        <enable_wpad>0</enable_wpad>
+        <enable_wpad>1</enable_wpad>
       </general>
       <advanced>
         <hideidentity>0</hideidentity>
