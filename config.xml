@@ -1364,7 +1364,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1720199983.3036</time>
+    <time>1720200051.6933</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2597,9 +2597,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <prefixlists/>
         <routemaps/>
       </ospf>
-      <bgp version="1.0.8">
+      <bgp version="1.0.9">
         <enabled>0</enabled>
         <asnumber>65551</asnumber>
+        <distance/>
         <routerid/>
         <graceful>0</graceful>
         <networkimportcheck>1</networkimportcheck>
@@ -2611,6 +2612,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <prefixlists/>
         <communitylists/>
         <routemaps/>
+        <peergroups/>
       </bgp>
       <bfd version="1.0.0">
         <enabled>0</enabled>
@@ -2634,6 +2636,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <redistribute/>
         <defaultmetric/>
       </rip>
+      <static version="1.0.0">
+        <enabled>0</enabled>
+        <routes/>
+      </static>
     </quagga>
     <HAProxy version="4.1.0">
       <general>
