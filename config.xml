@@ -1364,7 +1364,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1720200051.6933</time>
+    <time>1720200117.3943</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1391,7 +1391,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <Instances/>
       <StaticKeys/>
     </OpenVPN>
-    <captiveportal version="1.0.1">
+    <captiveportal version="1.0.2">
       <zones/>
       <templates/>
     </captiveportal>
@@ -1444,10 +1444,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.3">
+      <Filter version="1.0.4">
         <rules/>
         <snatrules/>
         <npt/>
+        <onetoone/>
       </Filter>
     </Firewall>
     <Netflow version="1.0.1">
@@ -1496,7 +1497,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <vxlans version="1.0.2"/>
       <neighbors version="1.0.0"/>
     </Interfaces>
-    <monit version="1.0.12">
+    <monit version="1.0.13">
       <general>
         <enabled>0</enabled>
         <interval>120</interval>
@@ -3180,48 +3181,16 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <dnsmasq>
     <regdhcp>1</regdhcp>
   </dnsmasq>
-  <hasync>
-    <synchronizealiases>on</synchronizealiases>
-    <synchronizeauthservers>on</synchronizeauthservers>
-    <synchronizecerts>on</synchronizecerts>
-    <synchronizedhcpd>on</synchronizedhcpd>
-    <synchronizenat>on</synchronizenat>
-    <synchronizerules>on</synchronizerules>
-    <synchronizeschedules>on</synchronizeschedules>
-    <synchronizestaticroutes>on</synchronizestaticroutes>
-    <synchronizeusers>on</synchronizeusers>
-    <synchronizevirtualip>on</synchronizevirtualip>
-    <synchronizewidgets>on</synchronizewidgets>
-    <synchronizebind>on</synchronizebind>
-    <synchronizedhcrelay>on</synchronizedhcrelay>
-    <synchronizedhcpdv6>on</synchronizedhcpdv6>
-    <synchronizedhcrelay6>on</synchronizedhcrelay6>
-    <synchronizentpd>on</synchronizentpd>
-    <synchronizesyslog>on</synchronizesyslog>
-    <synchronizecron>on</synchronizecron>
-    <synchronizesysctl>on</synchronizesysctl>
-    <synchronizewebgui>on</synchronizewebgui>
-    <synchronizeddclient>on</synchronizeddclient>
-    <synchronizednsforwarder>on</synchronizednsforwarder>
-    <synchronizequagga>on</synchronizequagga>
-    <synchronizehaproxy>on</synchronizehaproxy>
-    <synchronizeshaper>on</synchronizeshaper>
-    <synchronizecaptiveportal>on</synchronizecaptiveportal>
-    <synchronizeipsec>on</synchronizeipsec>
-    <synchronizemonit>on</synchronizemonit>
-    <synchronizessh>on</synchronizessh>
-    <synchronizeopenvpn>on</synchronizeopenvpn>
-    <synchronizeifgroups>on</synchronizeifgroups>
-    <synchronizecategories>on</synchronizecategories>
-    <synchronizelvtemplate>on</synchronizelvtemplate>
-    <synchronizesquid>on</synchronizesquid>
-    <synchronizesuricata>on</synchronizesuricata>
-    <synchronizednsresolver>on</synchronizednsresolver>
-    <synchronizewireguard>on</synchronizewireguard>
+  <hasync version="1.0.0">
+    <disablepreempt>0</disablepreempt>
+    <disconnectppps>0</disconnectppps>
+    <pfsyncenabled>0</pfsyncenabled>
     <pfsyncinterface>wan</pfsyncinterface>
+    <pfsyncpeerip>192.168.7.1</pfsyncpeerip>
+    <pfsyncversion>1400</pfsyncversion>
     <synchronizetoip>192.168.7.1</synchronizetoip>
     <username>root</username>
     <password>marcel</password>
-    <pfsyncpeerip>192.168.7.1</pfsyncpeerip>
+    <syncitems>aliases,authservers,bind,captiveportal,certs,cron,widgets,ddclient,dhcpd,dhcpdv6,dhcrelay,dnsforwarder,categories,ifgroups,lvtemplate,rules,schedules,quagga,haproxy,suricata,ipsec,monit,nat,syslog,ntpd,ssh,openvpn,shaper,staticroutes,sysctl,dnsresolver,users,virtualip,webgui,wireguard</syncitems>
   </hasync>
 </opnsense>
