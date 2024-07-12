@@ -1420,8 +1420,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1720799327.3205</time>
-    <description>Saved Gateways Filter via Dashboard</description>
+    <description>/api/routing/settings/setGateway/WANBACKUP_DHCP machte &#xC4;nderungen</description>
+    <time>1720799916.0752</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2104,6 +2104,30 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <monitor>1.1.1.1</monitor>
         <force_down>0</force_down>
         <priority>255</priority>
+        <weight>1</weight>
+        <latencylow/>
+        <latencyhigh/>
+        <losslow/>
+        <losshigh/>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+      <gateway_item uuid="f9091a7c-e1bc-41d2-86b3-81cc2600bf2f">
+        <disabled>0</disabled>
+        <name>WANBACKUP_DHCP</name>
+        <descr>Interface WANBACKUP_DHCP Gateway</descr>
+        <interface>opt4</interface>
+        <ipprotocol>inet</ipprotocol>
+        <gateway/>
+        <defaultgw>0</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>0</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor>149.112.112.112</monitor>
+        <force_down>0</force_down>
+        <priority>254</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
