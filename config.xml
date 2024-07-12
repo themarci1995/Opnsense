@@ -1420,8 +1420,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/routing/settings/setGateway/f9091a7c-e1bc-41d2-86b3-81cc2600bf2f machte &#xC4;nderungen</description>
-    <time>1720800143.2695</time>
+    <description>/api/routing/settings/setGateway/09919ff2-e6e7-4c3a-b2cb-70892726dfd5 machte &#xC4;nderungen</description>
+    <time>1720800154.2585</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2147,7 +2147,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <gateway/>
         <defaultgw>0</defaultgw>
         <fargw>0</fargw>
-        <monitor_disable>0</monitor_disable>
+        <monitor_disable>1</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
         <monitor>2620:fe::9</monitor>
         <force_down>0</force_down>
