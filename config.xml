@@ -605,6 +605,20 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <ntpserver/>
       </staticmap>
     </lan>
+    <opt5>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>10.10.0.2</from>
+        <to>10.10.0.200</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt5>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1507,8 +1521,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1720803618.3896</time>
-    <description>/interfaces.php made changes</description>
+    <time>1720804044.5007</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
