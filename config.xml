@@ -1415,12 +1415,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <filterlogentries>20</filterlogentries>
     <filterlogentriesupdateinterval>2</filterlogentriesupdateinterval>
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
-    <interfaceslistfilter>opt4</interfaceslistfilter>
+    <interfaceslistfilter>lan,opt3,wan,opt4,opt1</interfaceslistfilter>
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1720794638.3158</time>
+    <time>1720794647.2917</time>
     <description>Saved Interface List Filter via Dashboard</description>
   </revision>
   <OPNsense>
