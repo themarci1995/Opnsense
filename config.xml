@@ -525,8 +525,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <adv_dhcp6_config_file_override_path/>
     </opt4>
     <opt5>
-      <descr>Proxmox</descr>
       <if>igc2</if>
+      <descr>Proxmox</descr>
+      <enable>1</enable>
+      <lock>1</lock>
+      <spoofmac/>
     </opt5>
   </interfaces>
   <dhcpd>
@@ -1472,8 +1475,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1720800469.3269</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1720800476.4302</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
