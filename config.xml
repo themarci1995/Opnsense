@@ -469,6 +469,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <lock>1</lock>
       <spoofmac/>
     </opt2>
+    <opt4>
+      <descr>WANBackup</descr>
+      <if>igc3</if>
+    </opt4>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1362,9 +1366,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1720200117.3943</time>
+    <username>root@10.0.0.57</username>
+    <time>1720794528.7321</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -3106,8 +3110,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <bridges>
     <bridged/>
   </bridges>
-  <gifs version="1.0.0"/>
-  <gres version="1.0.0"/>
+  <gifs version="1.0.0">
+    <gif/>
+  </gifs>
+  <gres version="1.0.0">
+    <gre/>
+  </gres>
   <ppps>
     <ppp/>
   </ppps>
