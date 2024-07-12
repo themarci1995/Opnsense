@@ -1375,6 +1375,30 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="79695025-e97e-4eab-90e9-a87b0dd53bf0">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet46</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>out</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.0.0.57</username>
+        <time>1720800363.2379</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.0.0.57</username>
+        <time>1720800363.2379</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <bypassstaticroutes>yes</bypassstaticroutes>
   </filter>
   <rrd>
@@ -1444,7 +1468,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1720800350.7335</time>
+    <time>1720800363.3395</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
