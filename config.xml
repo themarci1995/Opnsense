@@ -1475,8 +1475,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1720800510.8411</time>
-    <description>Saved Interface List Filter via Dashboard</description>
+    <description>/api/kea/dhcpv4/set machte &#xC4;nderungen</description>
+    <time>1720801769.4843</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -3228,8 +3228,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <Kea>
       <dhcp4 version="1.0.0">
         <general>
-          <enabled>0</enabled>
-          <interfaces/>
+          <enabled>1</enabled>
+          <interfaces>opt5</interfaces>
           <valid_lifetime>4000</valid_lifetime>
           <fwrules>1</fwrules>
         </general>
