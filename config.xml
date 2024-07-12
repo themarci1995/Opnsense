@@ -1411,7 +1411,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <ipcheckfilter>address,isp,vpn,risk</ipcheckfilter>
     <gatewaysfilter>WANBACKUP_DHCP6,WANBACKUP_DHCP,WAN_DHCP6,WAN_DHCP,WgBridge</gatewaysfilter>
     <gatewaysinvert>1</gatewaysinvert>
-    <traffic_graphs_interfaces>lan,opt3,wan,opt1</traffic_graphs_interfaces>
+    <traffic_graphs_interfaces>lan,opt3,wan,opt4,opt1</traffic_graphs_interfaces>
     <filterlogentries>20</filterlogentries>
     <filterlogentriesupdateinterval>2</filterlogentriesupdateinterval>
     <filterlogentriesacts>Pass Block Reject</filterlogentriesacts>
@@ -1420,8 +1420,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/routing/settings/setGateway/09919ff2-e6e7-4c3a-b2cb-70892726dfd5 machte &#xC4;nderungen</description>
-    <time>1720800154.2585</time>
+    <time>1720800260.5573</time>
+    <description>Saved Widget Interface List via Dashboard</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
