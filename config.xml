@@ -524,6 +524,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <adv_dhcp6_config_file_override/>
       <adv_dhcp6_config_file_override_path/>
     </opt4>
+    <opt5>
+      <descr>Proxmox</descr>
+      <if>igc2</if>
+    </opt5>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1468,8 +1472,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/routing/settings/setGateway/f9091a7c-e1bc-41d2-86b3-81cc2600bf2f machte &#xC4;nderungen</description>
-    <time>1720800411.5531</time>
+    <time>1720800469.3269</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
