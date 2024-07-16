@@ -1521,8 +1521,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.151</username>
-    <description>/api/unbound/settings/delHostOverride/ad2eb91b-8158-4094-ba68-eb0b9b0f61b1 machte &#xC4;nderungen</description>
-    <time>1721115413.3235</time>
+    <description>/api/unbound/settings/delHostOverride/abadd299-bb6e-4ea2-bca3-e4c6f9730d9f machte &#xC4;nderungen</description>
+    <time>1721115415.7899</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2048,18 +2048,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <enabled>1</enabled>
       </forwarding>
       <dots/>
-      <hosts>
-        <host uuid="abadd299-bb6e-4ea2-bca3-e4c6f9730d9f">
-          <enabled>1</enabled>
-          <hostname>pihole</hostname>
-          <domain>marcelheider.local</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>10.0.0.92</server>
-          <description/>
-        </host>
-      </hosts>
+      <hosts/>
       <aliases/>
       <domains/>
     </unboundplus>
