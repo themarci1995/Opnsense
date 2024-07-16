@@ -1521,8 +1521,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.151</username>
-    <description>/api/unbound/settings/delHostOverride/08d1eb6b-c7b6-4635-8404-eacb575d4876 machte &#xC4;nderungen</description>
-    <time>1721115407.8558</time>
+    <description>/api/unbound/settings/delHostOverride/57b21a1c-bc0b-454f-bb72-8a6a9f670ebe machte &#xC4;nderungen</description>
+    <time>1721115410.337</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2049,16 +2049,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </forwarding>
       <dots/>
       <hosts>
-        <host uuid="57b21a1c-bc0b-454f-bb72-8a6a9f670ebe">
-          <enabled>1</enabled>
-          <hostname>pve</hostname>
-          <domain>marcelheider.lcoal</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>10.0.0.92</server>
-          <description/>
-        </host>
         <host uuid="ad2eb91b-8158-4094-ba68-eb0b9b0f61b1">
           <enabled>1</enabled>
           <hostname>portainer</hostname>
