@@ -472,7 +472,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <opt4>
       <if>igc3</if>
       <descr>WANBackup</descr>
-      <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
       <ipaddr>dhcp</ipaddr>
@@ -1521,8 +1520,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.151</username>
-    <description>/api/unbound/settings/set machte &#xC4;nderungen</description>
-    <time>1721115462.4527</time>
+    <time>1721115522.6634</time>
+    <description>Interface WANBackup(opt4) is now disabled.</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
