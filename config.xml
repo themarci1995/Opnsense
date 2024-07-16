@@ -1521,8 +1521,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.151</username>
-    <description>/api/unbound/settings/delDomainOverride/042d9f2f-9a45-4f2c-889e-f84aae4afd97 machte &#xC4;nderungen</description>
-    <time>1721115396.7872</time>
+    <description>/api/unbound/settings/delDomainOverride/6031ce09-ddea-484a-a7d5-008684ec9aac machte &#xC4;nderungen</description>
+    <time>1721115399.052</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2111,15 +2111,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         </host>
       </hosts>
       <aliases/>
-      <domains>
-        <domain uuid="6031ce09-ddea-484a-a7d5-008684ec9aac">
-          <enabled>1</enabled>
-          <domain>portainer.marcelheider.local</domain>
-          <server>10.0.0.137@9443</server>
-          <forward_tcp_upstream>0</forward_tcp_upstream>
-          <description/>
-        </domain>
-      </domains>
+      <domains/>
     </unboundplus>
     <Gateways version="1.0.0">
       <gateway_item uuid="5a3b29d2-0970-4065-b584-d8590d82aa05">
