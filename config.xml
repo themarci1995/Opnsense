@@ -1521,8 +1521,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.151</username>
-    <description>/api/unbound/settings/delHostOverride/4a4bf6a1-972a-4ef9-b50b-17b07c7cb7bd machte &#xC4;nderungen</description>
-    <time>1721115402.9724</time>
+    <description>/api/unbound/settings/delHostOverride/f9c21729-d910-401d-a7ea-2d886a1b3d1c machte &#xC4;nderungen</description>
+    <time>1721115405.5544</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2049,16 +2049,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </forwarding>
       <dots/>
       <hosts>
-        <host uuid="f9c21729-d910-401d-a7ea-2d886a1b3d1c">
-          <enabled>1</enabled>
-          <hostname>hm80</hostname>
-          <domain>marcelheider.local</domain>
-          <rr>A</rr>
-          <mxprio/>
-          <mx/>
-          <server>10.0.3.255</server>
-          <description/>
-        </host>
         <host uuid="08d1eb6b-c7b6-4635-8404-eacb575d4876">
           <enabled>1</enabled>
           <hostname>rss</hostname>
