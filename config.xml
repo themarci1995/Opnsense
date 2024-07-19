@@ -1521,7 +1521,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1721406240.8074</time>
+    <time>1721406240.83</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2241,8 +2241,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <challengealias/>
           <certRefId>669a9320c3ac7</certRefId>
           <lastUpdate>1721406240</lastUpdate>
-          <statusCode>400</statusCode>
-          <statusLastUpdate>1721406219</statusLastUpdate>
+          <statusCode>200</statusCode>
+          <statusLastUpdate>1721406240</statusLastUpdate>
         </certificate>
         <certificate uuid="4b82ec4d-b4ad-4916-8ed4-fb98de3afb44">
           <id>669a92e2dac4f6.77498266</id>
