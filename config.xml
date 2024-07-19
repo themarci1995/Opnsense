@@ -1521,7 +1521,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/acmeclient/certificates/add/ machte &#xC4;nderungen</description>
-    <time>1721406191.7957</time>
+    <time>1721406208.3032</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2269,6 +2269,27 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <id>669a92efc165c3.77283993</id>
           <enabled>1</enabled>
           <name>marcelheider.local</name>
+          <description/>
+          <altNames/>
+          <account>b8baa8d8-ec57-476d-afd4-611f5beebedd</account>
+          <validationMethod>deb05ccd-c812-4e0b-b4ba-6b655c35141d</validationMethod>
+          <keyLength>key_4096</keyLength>
+          <ocsp>0</ocsp>
+          <restartActions/>
+          <autoRenewal>1</autoRenewal>
+          <renewInterval>60</renewInterval>
+          <aliasmode>none</aliasmode>
+          <domainalias/>
+          <challengealias/>
+          <certRefId/>
+          <lastUpdate/>
+          <statusCode>100</statusCode>
+          <statusLastUpdate/>
+        </certificate>
+        <certificate uuid="382c988e-ed9d-4bde-bb14-c58de60bae8e">
+          <id>669a9300492df1.67850713</id>
+          <enabled>1</enabled>
+          <name>*.marcelheider.local</name>
           <description/>
           <altNames/>
           <account>b8baa8d8-ec57-476d-afd4-611f5beebedd</account>
