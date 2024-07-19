@@ -1520,8 +1520,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1721407988.5031</time>
-    <description>/services_dhcpv6.php made changes</description>
+    <description>/api/unbound/settings/set machte &#xC4;nderungen</description>
+    <time>1721408426.8749</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -1971,7 +1971,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     </TrafficShaper>
     <unboundplus version="1.0.9">
       <general>
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <port>53</port>
         <stats>1</stats>
         <active_interface/>
