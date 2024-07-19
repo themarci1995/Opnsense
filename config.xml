@@ -1519,9 +1519,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1721405919.2883</time>
+    <username>root@10.0.0.57</username>
+    <description>/api/acmeclient/certificates/del/9f25e546-f0ba-4123-930a-0b087a21ae9b machte &#xC4;nderungen</description>
+    <time>1721405921.3409</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2222,29 +2222,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <statusLastUpdate>1703874688</statusLastUpdate>
         </account>
       </accounts>
-      <certificates>
-        <certificate uuid="9f25e546-f0ba-4123-930a-0b087a21ae9b">
-          <id>658f115771df61.59923320</id>
-          <enabled>1</enabled>
-          <name>opnsense.marcelheider.de</name>
-          <description/>
-          <altNames/>
-          <account>b8baa8d8-ec57-476d-afd4-611f5beebedd</account>
-          <validationMethod>deb05ccd-c812-4e0b-b4ba-6b655c35141d</validationMethod>
-          <keyLength>key_4096</keyLength>
-          <ocsp>0</ocsp>
-          <restartActions/>
-          <autoRenewal>1</autoRenewal>
-          <renewInterval>60</renewInterval>
-          <aliasmode>automatic</aliasmode>
-          <domainalias/>
-          <challengealias/>
-          <certRefId>658f11832424e</certRefId>
-          <lastUpdate>1719439251</lastUpdate>
-          <statusCode>100</statusCode>
-          <statusLastUpdate>1721405919</statusLastUpdate>
-        </certificate>
-      </certificates>
+      <certificates/>
       <validations>
         <validation uuid="deb05ccd-c812-4e0b-b4ba-6b655c35141d">
           <id>658f1103dca670.81887394</id>
