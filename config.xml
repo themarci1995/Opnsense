@@ -310,7 +310,6 @@
     <language>de_DE</language>
     <dnsserver>10.20.0.1</dnsserver>
     <dnsserver>10.20.0.2</dnsserver>
-    <dnsserver>10.0.0.1</dnsserver>
     <gw_switch_default>1</gw_switch_default>
     <dns1gw>none</dns1gw>
     <dns2gw>none</dns2gw>
@@ -1520,8 +1519,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/haproxy/settings/set machte &#xC4;nderungen</description>
-    <time>1721408729.4718</time>
+    <time>1721409545.7597</time>
+    <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
