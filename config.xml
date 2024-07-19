@@ -1519,8 +1519,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1721409685.9376</time>
-    <description>/system_advanced_network.php made changes</description>
+    <time>1721409771.7084</time>
+    <description>/services_dhcpv6.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -3370,6 +3370,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <to/>
         <prefixlength>48</prefixlength>
       </prefixrange>
+      <dnsserver>2003:c0:bf0b:72ff::2270</dnsserver>
       <dnsserver>2003:c0:bf0b:72ff::2270</dnsserver>
       <ntpserver/>
       <numberoptions>
