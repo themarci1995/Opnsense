@@ -271,7 +271,6 @@
     </webgui>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
-    <disablevlanhwfilter>1</disablevlanhwfilter>
     <disablechecksumoffloading>1</disablechecksumoffloading>
     <disablesegmentationoffloading>1</disablesegmentationoffloading>
     <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
@@ -362,6 +361,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <pfdebug>urgent</pfdebug>
     <dnssearchdomain>marcelheider.local</dnssearchdomain>
     <prefer_ipv4>1</prefer_ipv4>
+    <sharednet>1</sharednet>
   </system>
   <interfaces>
     <wan>
@@ -1519,8 +1519,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1721409584.313</time>
-    <description>/system_advanced_misc.php made changes</description>
+    <time>1721409685.9376</time>
+    <description>/system_advanced_network.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
