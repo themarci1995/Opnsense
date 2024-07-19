@@ -1519,8 +1519,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1721409771.7084</time>
-    <description>/services_dhcpv6.php made changes</description>
+    <time>1721410109.4219</time>
+    <description>/services_router_advertisements.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -3382,7 +3382,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <ramaxinterval>600</ramaxinterval>
       <radomainsearchlist/>
       <radnsserver/>
-      <radisablerdnss>1</radisablerdnss>
+      <rasamednsasdhcp6>1</rasamednsasdhcp6>
     </lan>
   </dhcpdv6>
   <cert uuid="9b8e32c4-f0f0-4809-8696-991f94312b99">
