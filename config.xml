@@ -1519,9 +1519,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>root@10.0.0.151</username>
-    <time>1721115522.6634</time>
-    <description>Interface WANBackup(opt4) is now disabled.</description>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1721405919.2883</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2241,8 +2241,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <challengealias/>
           <certRefId>658f11832424e</certRefId>
           <lastUpdate>1719439251</lastUpdate>
-          <statusCode>200</statusCode>
-          <statusLastUpdate>1719439251</statusLastUpdate>
+          <statusCode>100</statusCode>
+          <statusLastUpdate>1721405919</statusLastUpdate>
         </certificate>
       </certificates>
       <validations>
@@ -2297,6 +2297,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_dnsexit_auth_user/>
           <dns_dnsexit_auth_pass/>
           <dns_dnsexit_api/>
+          <dns_dnshome_password/>
+          <dns_dnshome_subdomain/>
           <dns_dnsimple_token/>
           <dns_dnsservices_user/>
           <dns_dnsservices_password/>
@@ -2379,6 +2381,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_nsupdate_server/>
           <dns_nsupdate_zone/>
           <dns_nsupdate_key/>
+          <dns_oci_cli_user/>
+          <dns_oci_cli_tenancy/>
+          <dns_oci_cli_region/>
+          <dns_oci_cli_key/>
           <dns_online_key/>
           <dns_opnsense_host>localhost</dns_opnsense_host>
           <dns_opnsense_port>443</dns_opnsense_port>
@@ -2437,6 +2443,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_cn_user/>
           <dns_cn_password/>
           <dns_arvan_token/>
+          <dns_artfiles_username/>
+          <dns_artfiles_password/>
           <dns_hetzner_token/>
           <dns_hexonet_login/>
           <dns_hexonet_password/>
