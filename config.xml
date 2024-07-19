@@ -320,7 +320,7 @@
     <dns7gw>none</dns7gw>
     <dns8gw>none</dns8gw>
     <powerd_enable>1</powerd_enable>
-    <crypto_hardware>hifn,padlock,qat,safe</crypto_hardware>
+    <crypto_hardware>qat,safe</crypto_hardware>
     <thermal_hardware>coretemp</thermal_hardware>
     <dhcpbackup>1</dhcpbackup>
     <captiveportalbackup>1</captiveportalbackup>
@@ -1519,8 +1519,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <time>1721409545.7597</time>
-    <description>/system_general.php made changes</description>
+    <time>1721409584.313</time>
+    <description>/system_advanced_misc.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
