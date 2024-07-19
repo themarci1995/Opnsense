@@ -1519,9 +1519,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1721406254.8788</time>
+    <username>root@10.0.0.57</username>
+    <description>/api/haproxy/settings/addServer/ machte &#xC4;nderungen</description>
+    <time>1721407368.6259</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2917,7 +2917,38 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </general>
       <frontends/>
       <backends/>
-      <servers/>
+      <servers>
+        <server uuid="dfefba8d-ffaf-43c0-9574-9d78986fc2f5">
+          <id>669a97889827b0.18675238</id>
+          <enabled>1</enabled>
+          <name>portainer.marcelheider.local</name>
+          <description/>
+          <address>10.0.0.137</address>
+          <port>9443</port>
+          <checkport/>
+          <mode>active</mode>
+          <multiplexer_protocol>unspecified</multiplexer_protocol>
+          <type>static</type>
+          <serviceName/>
+          <number/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <ssl>1</ssl>
+          <sslSNI/>
+          <sslVerify>1</sslVerify>
+          <sslCA/>
+          <sslCRL/>
+          <sslClientCertificate/>
+          <maxConnections/>
+          <weight/>
+          <checkInterval/>
+          <checkDownInterval/>
+          <source/>
+          <advanced/>
+          <unix_socket/>
+        </server>
+      </servers>
       <healthchecks/>
       <acls/>
       <actions/>
