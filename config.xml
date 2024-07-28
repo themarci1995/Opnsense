@@ -1519,9 +1519,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>root@10.0.0.148</username>
-    <description>/api/core/dashboard/restoreDefaults machte &#xC4;nderungen</description>
-    <time>1722158502.4014</time>
+    <username>root@10.0.0.151</username>
+    <time>1722159392.3259</time>
+    <description>/services_dhcpv6.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -3371,8 +3371,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <to/>
         <prefixlength>48</prefixlength>
       </prefixrange>
-      <dnsserver>2003:c0:bf0b:72ff::2270</dnsserver>
-      <dnsserver>2003:c0:bf0b:72ff::2270</dnsserver>
+      <dnsserver>fe80::be24:11ff:fe36:9090</dnsserver>
+      <dnsserver>fe80::be24:11ff:fe8e:c29f</dnsserver>
       <ntpserver/>
       <numberoptions>
         <item/>
