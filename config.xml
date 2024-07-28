@@ -242,6 +242,7 @@
       <expires/>
       <authorizedkeys/>
       <otp_seed/>
+      <dashboard/>
     </user>
     <user>
       <password>$2y$11$0IBDNuyNNgFE3MSXk9Bdh.1oe.JOLf1Y1rS8Wfws3ErT.x7NvDoSK</password>
@@ -1518,9 +1519,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1722117665.8599</time>
+    <username>root@10.0.0.148</username>
+    <description>/api/core/dashboard/restoreDefaults machte &#xC4;nderungen</description>
+    <time>1722158502.4014</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
