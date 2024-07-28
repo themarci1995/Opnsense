@@ -1386,18 +1386,15 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <statetype>keep state</statetype>
       <direction>in</direction>
       <quick>1</quick>
-      <protocol>udp</protocol>
       <source>
         <any>1</any>
-        <port>53</port>
       </source>
       <destination>
         <any>1</any>
-        <port>53</port>
       </destination>
       <updated>
         <username>root@10.0.0.151</username>
-        <time>1722160451.2159</time>
+        <time>1722160556.4447</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1547,7 +1544,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.151</username>
-    <time>1722160451.3202</time>
+    <time>1722160556.5491</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
