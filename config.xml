@@ -619,7 +619,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <to>10.10.0.200</to>
       </range>
       <winsserver/>
-      <dnsserver/>
+      <dnsserver>10.20.0.1</dnsserver>
+      <dnsserver>10.20.0.2</dnsserver>
       <ntpserver/>
     </opt5>
   </dhcpd>
@@ -1547,9 +1548,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1727647214.6633</time>
+    <username>root@10.0.0.76</username>
+    <time>1727648028.4383</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
