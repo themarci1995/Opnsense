@@ -238,6 +238,10 @@
           <key>2dbol0VPwzqkE4JkaQ6O1KNleI9p+QOlnutGPKpUKLiebDfO2r8HkWTViD1VydhfyXAyfWXvodKOvEde</key>
           <secret>$6$$QRgQtsisnLcxUTqIU6fJxu5Hb2tgROfTrBAD1uAo5jVS1QJmXZi21PEndT346TClyl43tbLVmiryWbo7m9G8y.</secret>
         </item>
+        <item>
+          <key>p21maL6zHXsxDDaDMcxRrCupOenhBWRxpfv2+Y+PfVLJSRe1vxJQkRApHdlTjv0bJ2+kGKZ4WBMxM1zQ</key>
+          <secret>$6$$olGH73dHfJSbSkY.tbL0wTk9J2Y7/FQI08JFz6hOqG19NTuNEHpCB0drmLmFtccrlEvQ102bcDT23ziwPZsW5/</secret>
+        </item>
       </apikeys>
       <expires/>
       <authorizedkeys/>
@@ -1543,9 +1547,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1727560807.1044</time>
+    <username>root@10.0.0.76</username>
+    <description>/system_usermanager.php?act=edit&amp;userid=0 machte &#xC4;nderungen</description>
+    <time>1727598163.1512</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
