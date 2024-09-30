@@ -1548,9 +1548,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>root@10.0.0.76</username>
-    <description>/api/core/dashboard/saveWidgets machte &#xC4;nderungen</description>
-    <time>1727648117.1922</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1727733603.4843</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -2313,7 +2313,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <certRefId/>
           <lastUpdate/>
           <statusCode>400</statusCode>
-          <statusLastUpdate>1727647210</statusLastUpdate>
+          <statusLastUpdate>1727733603</statusLastUpdate>
         </certificate>
         <certificate uuid="382c988e-ed9d-4bde-bb14-c58de60bae8e">
           <id>669a9300492df1.67850713</id>
