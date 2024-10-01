@@ -1548,9 +1548,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1727733606.3157</time>
+    <username>root@10.0.0.162</username>
+    <time>1727814452.9932</time>
+    <description>/interfaces_wireless_edit.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -3364,7 +3364,12 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <ppp/>
   </ppps>
   <wireless>
-    <clone/>
+    <clone>
+      <if>rtwn0</if>
+      <mode>bss</mode>
+      <descr>Test</descr>
+      <cloneif>rtwn0_wlan1</cloneif>
+    </clone>
   </wireless>
   <ca uuid="af471525-0779-47e7-9d85-8848aa1b40de">
     <refid>658f118323d1e</refid>
