@@ -566,6 +566,13 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <adv_dhcp6_config_file_override/>
       <adv_dhcp6_config_file_override_path/>
     </opt5>
+    <opt6>
+      <descr>Wlan</descr>
+      <if>rtwn0_wlan1</if>
+      <wireless>
+        <mode>bss</mode>
+      </wireless>
+    </opt6>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1549,8 +1556,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.162</username>
-    <time>1727814452.9932</time>
-    <description>/interfaces_wireless_edit.php made changes</description>
+    <time>1727814495.5794</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
