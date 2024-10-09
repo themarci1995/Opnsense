@@ -1556,8 +1556,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1728490377.2922</time>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1728511204.2305</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -2374,7 +2374,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <certRefId/>
           <lastUpdate/>
           <statusCode>400</statusCode>
-          <statusLastUpdate>1728424804</statusLastUpdate>
+          <statusLastUpdate>1728511204</statusLastUpdate>
         </certificate>
         <certificate uuid="382c988e-ed9d-4bde-bb14-c58de60bae8e">
           <id>669a9300492df1.67850713</id>
@@ -2505,6 +2505,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <dns_lexicon_provider>cloudflare</dns_lexicon_provider>
           <dns_lexicon_user/>
           <dns_lexicon_token/>
+          <dns_limacity_apikey/>
           <dns_linode_key/>
           <dns_linode_v4_key/>
           <dns_loopia_api>https://api.loopia.se/RPCSERV</dns_loopia_api>
