@@ -306,7 +306,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client-devel,os-bind,os-collectd,os-ddclient,os-dmidecode,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-ntopng,os-redis,os-sensei,os-sensei-agent,os-sensei-updater,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat,os-wireguard,os-zerotier</plugins>
+      <plugins>os-acme-client-devel,os-bind,os-c-icap-devel,os-collectd,os-ddclient,os-dmidecode,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-ntopng,os-redis,os-sensei,os-sensei-agent,os-sensei-updater,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat,os-wireguard,os-zerotier</plugins>
       <type>devel</type>
       <subscription/>
       <reboot/>
@@ -1556,8 +1556,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1728483416.2531</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1728483417.1369</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
