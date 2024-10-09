@@ -1555,9 +1555,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>root@10.0.0.107</username>
-    <description>/api/core/dashboard/saveWidgets machte &#xC4;nderungen</description>
-    <time>1728489940.5051</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1728490377.2922</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
