@@ -1556,8 +1556,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1728483373.838</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1728483416.2531</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.1">
@@ -3343,6 +3343,34 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </ctrl_agent>
     </Kea>
     <DHCRelay version="1.0.1"/>
+    <cicap>
+      <antivirus version="1.0.0">
+        <enable_clamav>0</enable_clamav>
+        <scanfiletypes>TEXT,DATA,EXECUTABLE,ARCHIVE,GIF,JPEG,MSOFFICE</scanfiletypes>
+        <sendpercentdata>5</sendpercentdata>
+        <startsendpercentdataafter>2M</startsendpercentdataafter>
+        <allow204responses>1</allow204responses>
+        <passonerror>0</passonerror>
+        <maxobjectsize>5M</maxobjectsize>
+      </antivirus>
+      <general version="1.0.1">
+        <enabled>0</enabled>
+        <timeout>300</timeout>
+        <maxkeepaliverequests>100</maxkeepaliverequests>
+        <keepalivetimeout>600</keepalivetimeout>
+        <startservers>3</startservers>
+        <maxservers>10</maxservers>
+        <minsparethreads>10</minsparethreads>
+        <maxsparethreads>20</maxsparethreads>
+        <threadsperchild>10</threadsperchild>
+        <maxrequestsperchild>0</maxrequestsperchild>
+        <listenaddress>::1</listenaddress>
+        <serveradmin/>
+        <servername/>
+        <enable_accesslog>1</enable_accesslog>
+        <localSquid>1</localSquid>
+      </general>
+    </cicap>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0"/>
