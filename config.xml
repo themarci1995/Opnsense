@@ -1556,11 +1556,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1728485907.5402</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1728485915.747</time>
   </revision>
   <OPNsense>
-    <IPsec version="1.0.2">
+    <IPsec version="1.0.3">
       <general>
         <enabled/>
         <preferred_oldsa>0</preferred_oldsa>
@@ -1574,15 +1574,16 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <ikesa_table_segments>4</ikesa_table_segments>
         <init_limit_half_open>1000</init_limit_half_open>
         <ignore_acquire_ts>1</ignore_acquire_ts>
+        <make_before_break/>
         <retransmit_tries/>
         <retransmit_timeout/>
         <retransmit_base/>
         <retransmit_jitter/>
         <retransmit_limit/>
         <syslog>
-          <ike_name>1</ike_name>
-          <log_level>0</log_level>
           <daemon>
+            <ike_name>1</ike_name>
+            <log_level>0</log_level>
             <app>1</app>
             <asn>1</asn>
             <cfg>1</cfg>
@@ -1619,7 +1620,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <OpenVPNExport version="0.0.1">
       <servers/>
     </OpenVPNExport>
-    <OpenVPN version="1.0.0">
+    <OpenVPN version="1.0.1">
       <Overwrites/>
       <Instances/>
       <StaticKeys/>
@@ -1697,7 +1698,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.0.9">
+    <IDS version="1.1.0">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -1723,6 +1724,19 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <syslog_eve>0</syslog_eve>
         <LogPayload>0</LogPayload>
         <verbosity/>
+        <eveLog>
+          <http>
+            <enable>0</enable>
+            <extended>0</extended>
+            <dumpAllHeaders/>
+          </http>
+          <tls>
+            <enable>0</enable>
+            <extended>0</extended>
+            <sessionResumption>0</sessionResumption>
+            <custom/>
+          </tls>
+        </eveLog>
       </general>
     </IDS>
     <Interfaces>
@@ -3359,7 +3373,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </networks>
     </zerotier>
     <Kea>
-      <dhcp4 version="1.0.0">
+      <dhcp4 version="1.0.1">
         <general>
           <enabled>1</enabled>
           <interfaces>opt5</interfaces>
@@ -3369,6 +3383,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <ha>
           <enabled>0</enabled>
           <this_server_name/>
+          <max_unacked_clients>2</max_unacked_clients>
         </ha>
         <subnets/>
         <reservations/>
@@ -3418,6 +3433,20 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <DisabledRPCs/>
       </general>
     </QemuGuestAgent>
+    <trust>
+      <general version="1.0.1">
+        <store_intermediate_certs>0</store_intermediate_certs>
+        <install_crls>0</install_crls>
+        <fetch_crls>0</fetch_crls>
+        <enable_legacy_sect>1</enable_legacy_sect>
+        <enable_config_constraints>0</enable_config_constraints>
+        <CipherString/>
+        <Ciphersuites/>
+        <groups/>
+        <MinProtocol/>
+        <MinProtocol_DTLS/>
+      </general>
+    </trust>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0"/>
@@ -3545,11 +3574,10 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <dnsmasq>
     <regdhcp>1</regdhcp>
   </dnsmasq>
-  <hasync version="1.0.0">
+  <hasync version="1.0.1">
     <disablepreempt>0</disablepreempt>
     <disconnectppps>0</disconnectppps>
-    <pfsyncenabled>0</pfsyncenabled>
-    <pfsyncinterface>wan</pfsyncinterface>
+    <pfsyncinterface/>
     <pfsyncpeerip>192.168.7.1</pfsyncpeerip>
     <pfsyncversion>1400</pfsyncversion>
     <synchronizetoip>192.168.7.1</synchronizetoip>
