@@ -1557,7 +1557,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1728485896.0132</time>
+    <time>1728485902.3685</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.2">
@@ -3105,7 +3105,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <Prefix>zenarmor_0000000000_64781189-d156-4af6-b130-46d9325f3a24_</Prefix>
           <ClusterUUID/>
           <retireAfter>7</retireAfter>
-          <dbpath>/var/db/mongodb</dbpath>
+          <dbpath>/usr/local/datastore/mongodb</dbpath>
         </database>
         <swapRate>60</swapRate>
         <swapRateEnabled>true</swapRateEnabled>
