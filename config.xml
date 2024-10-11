@@ -1557,7 +1557,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/dyndns/accounts/toggle_item/86e09b59-4c8c-4bbe-b942-e8fdf18fe3fb machte &#xC4;nderungen</description>
-    <time>1728669726.1829</time>
+    <time>1728669729.1513</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -3310,7 +3310,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <description>ipv64v6</description>
         </account>
         <account uuid="86e09b59-4c8c-4bbe-b942-e8fdf18fe3fb">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <service>custom</service>
           <protocol>post</protocol>
           <server>https://ipv64.net/update.php?key=lKszf3EijnUQDRLbWtOwPSXm4vgAcB0o</server>
