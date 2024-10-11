@@ -1557,7 +1557,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>root@10.0.0.57</username>
     <description>/api/dyndns/settings/set machte &#xC4;nderungen</description>
-    <time>1728672311.4076</time>
+    <time>1728672348.9939</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -3270,7 +3270,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <verbose>1</verbose>
         <allowipv6>0</allowipv6>
         <daemon_delay>300</daemon_delay>
-        <backend>ddclient</backend>
+        <backend>opnsense</backend>
       </general>
       <accounts>
         <account uuid="dcb7e8cb-7551-42f9-9d6f-afc71be787fd">
