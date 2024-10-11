@@ -1557,9 +1557,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <time>1728675090.701</time>
-    <description>opt5 configuration from console menu</description>
+    <username>root@10.0.0.57</username>
+    <description>/api/routing/settings/addGateway/ machte &#xC4;nderungen</description>
+    <time>1728676268.049</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -2254,6 +2254,30 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <monitor>2620:fe::9</monitor>
         <force_down>0</force_down>
         <priority>254</priority>
+        <weight>1</weight>
+        <latencylow/>
+        <latencyhigh/>
+        <losslow/>
+        <losshigh/>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+      <gateway_item uuid="84539879-f44f-4635-935a-c716f1032306">
+        <disabled>0</disabled>
+        <name>Sync_OPNSENSE</name>
+        <descr/>
+        <interface>opt5</interface>
+        <ipprotocol>inet</ipprotocol>
+        <gateway>172.16.0.2</gateway>
+        <defaultgw>0</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>1</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor/>
+        <force_down>0</force_down>
+        <priority>255</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
