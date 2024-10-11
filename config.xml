@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <opnsense>
-  <theme>tukan</theme>
+  <theme>solarized</theme>
   <sysctl>
     <item>
       <descr>Increase UFS read-ahead speeds to match the state of hard drives and NCQ.</descr>
@@ -1556,8 +1556,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/diagnostics/netflow/setconfig machte &#xC4;nderungen</description>
-    <time>1728673537.4699</time>
+    <time>1728673764.5503</time>
+    <description>/system_general.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
