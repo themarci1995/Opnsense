@@ -534,9 +534,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <lock>1</lock>
       <spoofmac/>
       <mtu>9000</mtu>
-      <ipaddr>10.10.0.1</ipaddr>
+      <ipaddr>172.16.10.1</ipaddr>
       <subnet>24</subnet>
-      <ipaddrv6>dhcp6</ipaddrv6>
+      <ipaddrv6/>
       <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
       <adv_dhcp6_interface_statement_send_options/>
       <adv_dhcp6_interface_statement_request_options/>
@@ -565,6 +565,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <adv_dhcp6_config_advanced/>
       <adv_dhcp6_config_file_override/>
       <adv_dhcp6_config_file_override_path/>
+      <gateway/>
+      <subnetv6/>
+      <gatewayv6/>
     </opt5>
     <opt6>
       <descr>Wlan</descr>
@@ -616,7 +619,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       </staticmap>
     </lan>
     <opt5>
-      <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>
@@ -1555,9 +1557,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>root@10.0.0.57</username>
-    <time>1728673764.5503</time>
-    <description>/system_general.php made changes</description>
+    <username>(root)</username>
+    <time>1728675090.701</time>
+    <description>opt5 configuration from console menu</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
