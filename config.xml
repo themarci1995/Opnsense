@@ -1557,9 +1557,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1728684006.2561</time>
+    <username>root@10.0.0.107</username>
+    <description>/api/core/hasync/set machte &#xC4;nderungen</description>
+    <time>1728766623.4838</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
