@@ -1582,8 +1582,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/dyndns/settings/set machte &#xC4;nderungen</description>
-    <time>1728826697.7595</time>
+    <description>/api/dyndns/accounts/del_item/86e09b59-4c8c-4bbe-b942-e8fdf18fe3fb machte &#xC4;nderungen</description>
+    <time>1728826900.0997</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -3345,24 +3345,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <ttl>300</ttl>
           <interface>wan</interface>
           <description>ipv64v6</description>
-        </account>
-        <account uuid="86e09b59-4c8c-4bbe-b942-e8fdf18fe3fb">
-          <enabled>0</enabled>
-          <service>custom</service>
-          <protocol>post</protocol>
-          <server>https://ipv64.net/update.php?key=lKszf3EijnUQDRLbWtOwPSXm4vgAcB0o</server>
-          <username>none</username>
-          <password>4UbYlLzN1wC3nSmdJvi5BoAf</password>
-          <resourceId/>
-          <hostnames>marcelheider.ipv64.net</hostnames>
-          <wildcard>0</wildcard>
-          <zone/>
-          <checkip>web_noip-ipv6</checkip>
-          <checkip_timeout>10</checkip_timeout>
-          <force_ssl>1</force_ssl>
-          <ttl>300</ttl>
-          <interface>wan</interface>
-          <description>ipv64v4new</description>
         </account>
       </accounts>
     </DynDNS>
