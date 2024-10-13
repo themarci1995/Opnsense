@@ -1582,8 +1582,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/dyndns/accounts/toggle_item/86e09b59-4c8c-4bbe-b942-e8fdf18fe3fb machte &#xC4;nderungen</description>
-    <time>1728826387.4232</time>
+    <description>/api/dyndns/accounts/toggle_item/edf744e5-15c6-42ac-976d-11621220a127 machte &#xC4;nderungen</description>
+    <time>1728826387.8586</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -3329,7 +3329,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <description>ipv64v4</description>
         </account>
         <account uuid="edf744e5-15c6-42ac-976d-11621220a127">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <service>custom</service>
           <protocol>dyndns2</protocol>
           <server>ipv64.net</server>
