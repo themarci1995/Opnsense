@@ -306,7 +306,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client-devel,os-bind,os-collectd,os-cpu-microcode-intel,os-ddclient,os-dmidecode,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-qemu-guest-agent,os-redis,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat</plugins>
+      <plugins>os-acme-client-devel,os-bind,os-collectd,os-cpu-microcode-intel,os-ddclient,os-dmidecode,os-git-backup,os-haproxy,os-homeassistant-maxit,os-ipcheck-community,os-nextcloud-backup,os-node_exporter,os-qemu-guest-agent,os-redis,os-smart,os-sunnyvalley,os-telegraf,os-theme-solarized-community,os-theme-tukan,os-vnstat</plugins>
       <type>devel</type>
       <subscription/>
       <reboot/>
@@ -1583,7 +1583,7 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1728822377.4261</time>
+    <time>1728822546.9596</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
