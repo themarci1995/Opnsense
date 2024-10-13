@@ -1582,8 +1582,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1728822215.4122</time>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
+    <time>1728822240.5279</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -1669,19 +1669,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
           <command>acmeclient cron-auto-renew</command>
           <parameters/>
           <description>AcmeClient Cronjob for Certificate AutoRenewal</description>
-        </job>
-        <job uuid="7d1e8fea-0959-4eac-8dd4-553b112a033e">
-          <origin>Zenarmor</origin>
-          <enabled>1</enabled>
-          <minutes>*</minutes>
-          <hours>*</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>zenarmor periodicals</command>
-          <parameters>&gt; /dev/null 2&gt;&amp;1</parameters>
-          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
