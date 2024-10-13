@@ -1582,8 +1582,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1728822829.4849</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1728823367.7571</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
@@ -3503,6 +3503,11 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
         <MinProtocol_DTLS/>
       </general>
     </trust>
+    <hwprobe>
+      <general version="0.0.1">
+        <enabled>0</enabled>
+      </general>
+    </hwprobe>
   </OPNsense>
   <openvpn/>
   <ifgroups version="1.0.0"/>
