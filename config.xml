@@ -1582,8 +1582,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
   </widgets>
   <revision>
     <username>root@10.0.0.57</username>
-    <description>/api/dyndns/accounts/set_item/dcb7e8cb-7551-42f9-9d6f-afc71be787fd machte &#xC4;nderungen</description>
-    <time>1728826688.6861</time>
+    <description>/api/dyndns/settings/set machte &#xC4;nderungen</description>
+    <time>1728826690.8167</time>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
