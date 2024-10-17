@@ -377,6 +377,8 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
       <mtu>9000</mtu>
+      <media>1000baseT</media>
+      <mediaopt>full-duplex</mediaopt>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
       <alias-address/>
@@ -400,7 +402,6 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
       <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
       <dhcp6-ia-pd-send-hint>1</dhcp6-ia-pd-send-hint>
       <dhcp6prefixonly>1</dhcp6prefixonly>
-      <dhcp6usev4iface>1</dhcp6usev4iface>
       <adv_dhcp6_interface_statement_send_options/>
       <adv_dhcp6_interface_statement_request_options/>
       <adv_dhcp6_interface_statement_information_only_enable/>
@@ -1581,9 +1582,9 @@ IPyF0XneQlK9DDcTmCEFAAAAGG1hcmNlbGhlaWRlcjM3QGdtYWlsLmNvbQECAwQF&#xD;
     <interfaceslistinvert>1</interfaceslistinvert>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1729116006.3112</time>
+    <username>root@10.0.0.57</username>
+    <time>1729153728.6566</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <IPsec version="1.0.3">
